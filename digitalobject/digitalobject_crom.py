@@ -1,7 +1,4 @@
 
-from re import T
-import sys
-
 import cromulent
 import pyld
 
@@ -39,32 +36,42 @@ from cromulent.vocab import Production, HumanMadeObject, Dimension, MeasurementU
 """
 
 types = {
-    "digital_image" :{
-        "id": "http://vocab.getty.edu/aat/300215302",
+    "http://vocab.getty.edu/aat/300215302" :{ 
         "_label": "Digital Image"
     },
-    "collection" : {
-        "id": "http://vocab.getty.edu/aat/300025976",
+    "http://vocab.getty.edu/aat/300025976" : { 
         "_label": "Collection"
         },
-    "web_page":{
-        "id": "http://vocab.getty.edu/aat/300264578", 
+    "http://vocab.getty.edu/aat/300264578":{
         "_label": "Web Page"
+    },
+    "http://vocab.getty.edu/aat/300055647":{ 
+        "_label": "Width"
+    },
+    "http://vocab.getty.edu/aat/300379098":{
+        "_label": "Height"
+    },
+    "http://vocab.getty.edu/aat/300379098":{
+        "_label": "Centimetres"
+    },
+    "http://vocab.getty.edu/aat/300379098":{
+        "_label": "Display Title"
     }
+
 }
 
 
 data = {
         "id": "12033",
         "_label": "PIA ID 12033 - [Schwyzer Fasnacht]",
-        "type": "digital_image",
+        "type": "http://vocab.getty.edu/aat/300215302",
         "member_of": [{
             "id": "12",
              "_label": "SGV_12 (Ernst Brunner)",
              "type": "collection"
         }],
         "subject_of": [{
-            "type": "web_page",
+            "type": "http://vocab.getty.edu/aat/300264578",
             "_label": "SGV Homepage for PIA ID 12033 - [Schwyzer Fasnacht]",
             "access_point_id": "https://archiv.sgv-sstp.ch/resource/422236"
         },
@@ -73,8 +80,53 @@ data = {
             "_label": "IIIF Manifest for PIA ID 12033 - [Schwyzer Fasnacht]",
             "access_point_id": "https://iiif.participatory-archives.ch/12033/manifest.json",   
           }
-        ]
+        ],
+        "current_owner": {
+            "id": "",
+            "_label": "",
+            "type_id": "",
+            "type_label": ""
+        },
+        "created_by": {
+            "_label": "",
+            "used": {
+                "label": "",
+                "type_id": "",
+                "type_label": "",
+                "dimension" : {
+                    "type" : "",
+                    "value" : "",
+                    "unit": "http://vocab.getty.edu/aat/300379098"
+                },
+            
+            "produced_by":{
+            "timespan" : {
+                "name": {
+                    "type" : "http://vocab.getty.edu/aat/300379098",
+                    "content" : "1937"
+                },
+                "begin": "",
+                "end": ""
+            },
+            "took_place_at": {
+                "id": "",
+                "_label": ""
+            },
+            "carried_out_by": {
+                "id": "",
+                "_label": ""
+                }
+        },
+        "shows": {
+            "_label": ""
+        }
+            }
 
+    },
+    "digitally_shows": {},
+"identified_by": {},
+"access_point": {},
+"digitally_available_via" : {}
     }
         
 
@@ -89,7 +141,7 @@ digital_object_1._label = data["_label"]
 
 # classified_as
 type = types[data["type"]]
-id = type["id"]
+id = data["type"]
 label = type["_label"]
 
 digital_object_1.classified_as = Type(ident=id, label=label)
@@ -102,8 +154,8 @@ label = collection["_label"]
 
 digital_object_1_collection = Set(ident=id,label=label)
 
-type = types["collection"]
-id = type["id"]
+type = types["http://vocab.getty.edu/aat/300025976"]
+id = "http://vocab.getty.edu/aat/300025976"
 label = type["_label"]
 
 digital_object_1_collection.classified_as = Type(ident=id, label=label)
