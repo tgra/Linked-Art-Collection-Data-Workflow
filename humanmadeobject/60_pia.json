@@ -1,0 +1,89 @@
+{
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "links": {
+        "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60"
+    },
+    "data": {
+        "type": "images",
+        "id": "60",
+        "attributes": {
+            "salsah_id": "473568",
+            "oldnr": "",
+            "signature": "SGV_10P_00060",
+            "title": "[Portr\u00e4t von Emilie Kreis-Martz]",
+            "original_title": null,
+            "base_path": "SGV_10",
+            "salsah_date": null,
+            "sequence_number": null
+        },
+        "relationships": {
+            "collections": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/collections",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/relationships\/collections"
+                }
+            },
+            "keywords": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/keywords",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/relationships\/keywords"
+                }
+            },
+            "comments": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/comments",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/relationships\/comments"
+                }
+            },
+            "people": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/people",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/relationships\/people"
+                }
+            },
+            "date": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/date",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/relationships\/date"
+                }
+            },
+            "place": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/place",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/relationships\/place"
+                }
+            },
+            "verso": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/verso",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/relationships\/verso"
+                }
+            },
+            "object_types": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/object-types",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/relationships\/object-types"
+                }
+            },
+            "model_types": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/model-types",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/relationships\/model-types"
+                }
+            },
+            "formats": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/formats",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60\/relationships\/formats"
+                }
+            }
+        },
+        "links": {
+            "manifest": "https:\/\/iiif.participatory-archives.ch\/60\/manifest.json",
+            "related": "https:\/\/sipi.participatory-archives.ch\/SGV_10\/SGV_10P_00060.jp2\/",
+            "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/60"
+        }
+    }
+}

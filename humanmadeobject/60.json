@@ -1,0 +1,291 @@
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json", 
+    "id": "https://linkedart.participatory-archives.ch/object/60",
+    "type": "HumanMadeObject",
+    "_label": "PIA ID 60 - [Porträt von Emilie Kreis-Martz]",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/aat/300127121", 
+        "type": "Type", 
+        "_label": "Albumen Print",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300435443",
+            "type": "Type",
+            "_label": "Type of Work"
+          }
+        ]
+      },
+      {
+        "id": "http://vocab.getty.edu/aat/300127131", 
+        "type": "Type", 
+        "_label": "Cabinet Photograph",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300435443",
+            "type": "Type",
+            "_label": "Type of Work"
+          }
+        ]
+      }
+    ],
+    "member_of": [
+      {
+        "id": "https://linkedart.participatory-archives.ch/set/10",
+        "type": "Set",
+        "_label": "SGV_10 (Familie Kreis)",
+        "classified_as": [
+          {
+          "id": "http://vocab.getty.edu/aat/300025976",
+          "type": "Type",
+          "_label": "Collection"
+          }
+        ]
+      }
+    ],
+    "subject_of": [
+      {
+        "type": "LinguisticObject",
+        "_label": "SGV Homepage for 60",
+        "digitally_carried_by": [
+          {
+            "type": "DigitalObject",
+            "_label": "SGV Homepage for 60",
+            "format": "text/html",
+            "access_point": [
+              {
+                "id": "https://archiv.sgv-sstp.ch/resource/473568",
+                "type": "DigitalObject"
+              }
+            ],
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web Page"
+              }
+            ],
+            "identified_by": [
+              {
+                "type": "Name",
+                "content": "SGV Homepage for PIA ID 60 - [Porträt von Emilie Kreis-Martz]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "LinguisticObject",
+        "_label": "IIIF Manifest for PIA ID 60 - [Porträt von Emilie Kreis-Martz]",
+        "digitally_carried_by": [
+          {
+            "type": "DigitalObject",
+            "_label": "IIIF Manifest for PIA ID 60 - [Porträt von Emilie Kreis-Martz]",
+            "format": "application/ld+json",
+            "conforms_to": [
+              {
+                "id": "http://iiif.io/api/presentation/3/context.json",
+                "type": "InformationObject"
+              }
+            ],
+            "access_point": [
+              {
+                "id": "https://iiif.participatory-archives.ch/60/manifest.json",
+                "type": "DigitalObject"
+              }
+            ],
+            "identified_by": [
+              {
+                "type": "Name",
+                "content": "IIIF Manifest for PIA ID 60 - [Porträt von Emilie Kreis-Martz]"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "current_owner": [
+      {
+        "id": "https://linkedart.participatory-archives.ch/agent/42",
+        "type": "Group",
+        "_label": "SGV Fotoarchiv",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300343368",
+            "type": "Type",
+            "_label": "Photo Archives"
+          }
+        ]
+      }
+    ],
+    "produced_by": {
+      "type": "Production",
+      "timespan": {
+        "type": "TimeSpan",
+        "identified_by": [
+          {
+            "type": "Name",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300404669",
+                "type": "Type",
+                "_label": "Display Title"
+              }
+            ],
+            "content": "01. Jan 1906 - 29. Dec 1906"
+          }
+        ],
+        "begin_of_the_begin": "1906-01-01T00:00:00Z",
+        "end_of_the_end": "1906-12-29T23:59:59Z"
+      },
+      "took_place_at": [
+        {
+          "id": "https://linkedart.participatory-archives.ch/place/3",
+          "type": "Place",
+          "_label": "Basel"
+        }
+      ],
+      "carried_out_by": [
+        {
+          "id": "https://linkedart.participatory-archives.ch/group/17",
+          "type": "Group",
+          "_label": "Atelier Kling-Jenny"
+        }
+      ]
+    },
+    "dimension": [
+      {
+        "type": "Dimension",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300055647",
+            "type": "Type",
+            "_label": "Width"
+          }
+        ],
+        "value": 11,
+        "unit": {
+          "id": "http://vocab.getty.edu/aat/300379098",
+          "type": "MeasurementUnit",
+          "_label": "Centimetres"
+        }
+      },
+      {
+        "type": "Dimension",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300055644",
+            "type": "Type",
+            "_label": "Height"
+          }
+        ],
+        "value": 17,
+        "unit": {
+          "id": "http://vocab.getty.edu/aat/300379098",
+          "type": "MeasurementUnit",
+          "_label": "Centimetres"
+        }
+      }
+    ],
+    "shows": [
+      {
+        "type": "VisualItem",
+        "_label": "Visual Content of [Porträt von Emilie Kreis-Martz]",
+        "represents": [
+          {
+            "id": "https://linkedart.participatory-archives.ch/person/17",
+            "type": "Person",
+            "_label": "Emilie Kreis-Martz"
+          }
+        ]
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Name",
+        "content": "[Porträt von Emilie Kreis-Martz]",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type",
+            "_label": "Owner-Assigned Title"
+          }
+        ],
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388344",
+            "type": "Language",
+            "_label": "German"
+          }
+        ]
+      },
+      {
+        "type": "Identifier",
+        "content": "SGV_10P_00060",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300312355",
+            "type": "Type",
+            "_label": "SGV Signature"
+          }
+        ]
+      },
+      {
+        "type": "Identifier",
+        "content": "60",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404621",
+            "type": "Type",
+            "_label": "PIA ID"
+          }
+        ]
+      }
+    ],
+    "representation": [
+      {
+        "type": "VisualItem",
+        "_label": "Digital surrogate of PIA ID 60 - [Porträt von Emilie Kreis-Martz]",
+        "digitally_shown_by": [
+          {
+            "type": "DigitalObject",
+            "format": "image/jpeg",
+            "access_point": [
+              {
+                "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_00060.jp2/full/max/0/default.jpg",
+                "type": "DigitalObject",
+                "_label": "Image in full resolution"
+              }
+            ],
+            "digitally_available_via": [
+              {
+                "type": "DigitalService",
+                "_label": "IIIF Image API",
+                "format": "application/ld+json",
+                "access_point": [
+                  {
+                    "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_00060.jp2/info.json",
+                    "type": "DigitalObject"
+                  }
+                ],
+                "conforms_to": [
+                  {
+                    "id": "http://iiif.io/api/image/3/context.json",
+                    "type": "InformationObject"
+                  }
+                ]
+              }
+            ],
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300215302",
+                "type": "Type",
+                "_label": "Digital Image"
+              }
+            ]
+          }
+        ]
+      }
+    ]  
+  }
+  

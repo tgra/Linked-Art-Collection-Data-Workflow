@@ -1,0 +1,122 @@
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://linkedart.participatory-archives.ch/set/12",
+    "type": "Set",
+    "_label": "SGV_12 (Ernst Brunner)",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/aat/300025976",
+        "type": "Type",
+        "_label": "Collection"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Name",
+        "content": "Ernst Brunner"
+      },
+      {
+        "type": "Identifier",
+        "content": "SGV_12",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300312355",
+            "type": "Type",
+            "_label": "SGV Signature"
+          }
+        ]
+      },
+      {
+        "type": "Identifier",
+        "content": "13",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404621",
+            "type": "Type",
+            "_label": "PIA ID"
+          }
+        ]
+      }
+    ],
+    "subject_of": [
+      {
+        "type": "LinguisticObject",
+        "_label": "SGV Homepage for SGV_12 (Ernst Brunner)",
+        "digitally_carried_by": [
+          {
+            "type": "DigitalObject",
+            "_label": "SGV Homepage for SGV_12 (Ernst Brunner)",
+            "format": "text/html",
+            "access_point": [
+              {
+                "id": "https://archiv.sgv-sstp.ch/collection/sgv_12/",
+                "type": "DigitalObject"
+              }
+            ],
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300264578",
+                "type": "Type",
+                "_label": "Web Page"
+              }
+            ],
+            "identified_by": [
+              {
+                "type": "Name",
+                "content": "SGV Homepage for SGV_12 (Ernst Brunner)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "LinguisticObject",
+        "_label": "IIIF Collection for SGV_12 (Ernst Brunner)",
+        "digitally_carried_by": [
+          {
+            "type": "DigitalObject",
+            "_label": "IIIF Collection for SGV_12 (Ernst Brunner)",
+            "format": "application/ld+json",
+            "conforms_to": [
+              {
+                "id": "http://iiif.io/api/presentation/3/context.json",
+                "type": "InformationObject"
+              }
+            ],
+            "access_point": [
+              {
+                "id": "https://iiif.participatory-archives.ch/collections/13.json",
+                "type": "DigitalObject"
+              }
+            ],
+            "identified_by": [
+              {
+                "type": "Name",
+                "content": "IIIF Collection for SGV_12 (Ernst Brunner)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300435416",
+            "type": "Type",
+            "_label": "Description",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "Brief Text"
+              }
+            ]
+          }
+        ],
+        "content": "Der Nachlass <a class=\"salsah-link\" href=\"IRI:343438:IRI\">Ernst Brunner</a> (1901–1979) ist die umfangreichste Sammlung der SGV. Er wurde 1980 nach dem Tod des Fotojournalisten und Bauernhausforschers der SGV übergeben. Die rund 48'000 schwarz-weissen Negative im Mittelformat (6 x 6 cm, bzw. 6 x 8 cm) und 20'000 Abzüge (15 x 15 cm lose oder auf Karteikarten geklebt) stammen vorwiegend aus den Jahren 1937 bis 1962. Brunners Porträts, Dorfansichten, Landschaftsaufnahmen, Fotografien von privaten und öffentlichen Anlässen, von Menschen bei ihrer Arbeit, von handwerklich hergestellten Objekten und von Arbeitsabläufen, zeigen den ländlichen und städtischen Alltag in allen Sprachregionen der Schweiz und Deutschlands. Gleichzeitig erlauben Brunners Fotografien eine bessere Wahrnehmung der in den letzten Jahrzehnten durch menschlichen Eingriff oder durch Naturkatastrophen verursachten Landschaftsveränderungen."
+      }
+    ]  
+}

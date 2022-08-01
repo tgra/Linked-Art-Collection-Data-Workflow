@@ -1,0 +1,88 @@
+{
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "links": {
+        "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13"
+    },
+    "data": {
+        "type": "collections",
+        "id": "13",
+        "attributes": {
+            "salsah_id": "421714",
+            "label": "SGV_12",
+            "signature": "SGV_12",
+            "description": "<p>Der Nachlass\u00a0<a class=\"salsah-link\" href=\"IRI:343438:IRI\">Ernst Brunner<\/a> (1901\u20131979) ist die umfangreichste Sammlung der SGV. Er wurde 1980 nach dem Tod des Fotojournalisten und Bauernhausforschers der SGV \u00fcbergeben. Die rund 48'000 schwarz-weissen Negative im Mittelformat (6 x 6 cm, bzw.\u00a06 x 8 cm) und 20'000 Abz\u00fcge (15 x 15 cm lose oder auf Karteikarten geklebt) stammen vorwiegend aus den Jahren 1937 bis 1962. Brunners Portr\u00e4ts, Dorfansichten, Landschaftsaufnahmen, Fotografien von privaten und \u00f6ffentlichen Anl\u00e4ssen, von Menschen bei ihrer Arbeit, von handwerklich hergestellten Objekten und von Arbeitsabl\u00e4ufen, zeigen den l\u00e4ndlichen und st\u00e4dtischen Alltag in allen Sprachregionen der Schweiz und Deutschlands. Gleichzeitig erlauben Brunners Fotografien eine bessere Wahrnehmung der in den letzten Jahrzehnten durch menschlichen Eingriff oder durch Naturkatastrophen verursachten Landschaftsver\u00e4nderungen.<\/p>",
+            "default_image": "SGV_12N_02901",
+            "embedded_video": "",
+            "origin": "salsah",
+            "createdAt": "2022-04-07T11:02:46.366444Z",
+            "updatedAt": null
+        },
+        "relationships": {
+            "date": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/date",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/relationships\/date"
+                }
+            },
+            "images": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/images",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/relationships\/images"
+                }
+            },
+            "comments": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/comments",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/relationships\/comments"
+                }
+            },
+            "agents": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/agents",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/relationships\/agents"
+                }
+            },
+            "literatures": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/literatures",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/relationships\/literatures"
+                }
+            },
+            "alt-labels": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/alt-labels",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/relationships\/alt-labels"
+                }
+            },
+            "documents": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/documents",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/relationships\/documents"
+                }
+            },
+            "keywords": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/keywords",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/relationships\/keywords"
+                }
+            },
+            "maps": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/maps",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/relationships\/maps"
+                }
+            },
+            "notes": {
+                "links": {
+                    "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/notes",
+                    "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13\/relationships\/notes"
+                }
+            }
+        },
+        "links": {
+            "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/collections\/13"
+        }
+    }
+}
