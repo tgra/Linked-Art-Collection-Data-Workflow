@@ -1,0 +1,90 @@
+
+{
+  "jsonapi": {
+      "version": "1.0"
+  },
+  "links": {
+      "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033"
+  },
+  "data": {
+      "type": "images",
+      "id": "12033",
+      "attributes": {
+          "salsah_id": "422236",
+          "oldnr": "AA 1",
+          "signature": "SGV_12N_00001",
+          "title": "[Schwyzer Fasnacht]",
+          "original_title": null,
+          "base_path": "SGV_12",
+          "salsah_date": null,
+          "sequence_number": null
+      },
+      "relationships": {
+          "collections": {
+              "links": {
+                  "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/collections",
+                  "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/relationships\/collections"
+              }
+          },
+          "keywords": {
+              "links": {
+                  "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/keywords",
+                  "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/relationships\/keywords"
+              }
+          },
+          "comments": {
+              "links": {
+                  "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/comments",
+                  "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/relationships\/comments"
+              }
+          },
+          "people": {
+              "links": {
+                  "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/people",
+                  "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/relationships\/people"
+              }
+          },
+          "date": {
+              "links": {
+                  "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/date",
+                  "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/relationships\/date"
+              }
+          },
+          "place": {
+              "links": {
+                  "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/place",
+                  "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/relationships\/place"
+              }
+          },
+          "verso": {
+              "links": {
+                  "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/verso",
+                  "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/relationships\/verso"
+              }
+          },
+          "object_types": {
+              "links": {
+                  "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/object-types",
+                  "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/relationships\/object-types"
+              }
+          },
+          "model_types": {
+              "links": {
+                  "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/model-types",
+                  "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/relationships\/model-types"
+              }
+          },
+          "formats": {
+              "links": {
+                  "related": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/formats",
+                  "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033\/relationships\/formats"
+              }
+          }
+      },
+      "links": {
+          "manifest": "https:\/\/iiif.participatory-archives.ch\/12033\/manifest.json",
+          "related": "https:\/\/sipi.participatory-archives.ch\/SGV_12\/SGV_12N_00001.jp2\/",
+          "self": "https:\/\/data.participatory-archives.ch\/api\/v1\/images\/12033"
+      }
+  }
+}

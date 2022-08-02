@@ -1,0 +1,108 @@
+{
+    "id": "12033",
+    "_label": "PIA ID 12033 - [Schwyzer Fasnacht]",
+    "type": "http://vocab.getty.edu/aat/300215302",
+    "member_of": [{
+            "id": "12",
+            "_label": "SGV_12 (Ernst Brunner)",
+            "type": "collection"
+    }],
+    "subject_of": [
+        {
+        "type": "http://vocab.getty.edu/aat/300264578",
+        "_label": "SGV Homepage for PIA ID 12033 - [Schwyzer Fasnacht]",
+        "access_point_id": "https://archiv.sgv-sstp.ch/resource/422236"
+    },
+    {
+        "type" : "iiif",
+        "_label" : "IIIF Manifest for PIA ID 12033 - [Schwyzer Fasnacht]",
+        "access_point_id": "https://iiif.participatory-archives.ch/12033/manifest.json"
+    }
+    ],
+    "current_owner": {
+        "id": "https://linkedart.participatory-archives.ch/group/42",
+        "_label": "SGV Fotoarchiv",
+        "type_id": "http://vocab.getty.edu/aat/300343368",
+        "type_label": "Photo Archives"
+    },
+    "created_by": {
+         "_label" : "Digitisation of Photograph",
+        "used": {
+            "_label": "Negative of [Schwyzer Fasnacht]",
+             "width": "6",
+            "height": "6",
+
+            "produced_by_event": {
+                "begin": "1937-01-01T00:00:00Z",
+                "end": "1937-12-31T23:59:59Z",
+                "display_title": "1937",
+                "location": [{
+                    "id": "https://linkedart.participatory-archives.ch/place/2",
+                    "_label": "Schwyz"
+                }],
+                "person": [{
+                    "id": "https://linkedart.participatory-archives.ch/person/12345",
+                    "_label": "Ernst Brunner"
+                }]
+                
+                    },
+            "shows": {
+    
+                "_label": "Visual Content of Negative of [Schwyzer Fasnacht]"}
+        }
+
+    },
+    
+
+    "identified_by": {
+
+        "names": [
+            {
+                "_label": "[Schwyzer Fasnacht]",
+                "type": {
+                    "id": "http://vocab.getty.edu/aat/300404670",
+                    "_label": "Owner-Assigned Title"
+                },
+                "language": {
+                    "id": "http://vocab.getty.edu/aat/300388344",
+                    "_label": "German"
+                }
+            }
+        ],
+
+        "identifiers": [
+            {
+                "value": "AA 1",
+                "type": {
+                    "id": "http://vocab.getty.edu/aat/300417447",
+                    "_label": "Creator-Assigned Number"
+                }
+            },
+            {
+                "value": "SGV_12N_00001",
+                "type": {
+                    "id": "http://vocab.getty.edu/aat/300312355",
+                    "_label": "SGV Signature"
+                }
+            },
+            {
+                "value": "12033",
+                "type": {
+                    "id": "http://vocab.getty.edu/aat/300404621",
+                    "_label": "PIA ID"
+                }
+            }
+        ]
+    },
+    "access_point": {
+        "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/full/max/0/default.jpg",
+        "_label": "Image in full resolution"
+    },
+    "iiif_image_api": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/info.json",
+
+    "digitally_shows": {
+        "_label": "Visual Content of Digital Positive of [Schwyzer Fasnacht]",
+        "type_id": "http://vocab.getty.edu/aat/300164207",
+        "type_label": "Carnival"
+    }
+}
