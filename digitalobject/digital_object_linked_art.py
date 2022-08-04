@@ -24,15 +24,18 @@ types                                   = settings.myVars["types"]
 
 # iterate over files in mapped_collection_data dir
 files = Path(mapped_collection_data_directory).glob('*')
-for file in files:
-    filename = os.path.basename(file)
-    with open(file) as json_file:
-        data = json.load(json_file)
+for root, dirs, files in os.walk(mapped_collection_data_directory):
+    if dirs == "example":
+        continue
+    for file in files:
+        filename = os.path.basename(file)
+        print(filename)
+        with open(mapped_collection_data_directory + '/' + file) as json_file:
+            data = json.load(json_file)
+            digital_object = patterns.digital_object_pattern(data,types)
+            la = factory.toString(digital_object, compact=False)
 
-        digital_object = patterns.digital_object_pattern(data,types)
-        la = factory.toString(digital_object, compact=False)
-
-        # write linked art to file
-        f = open(linked_art_data_directory + "/"+ filename , "w")
-        f.write(la)
-        f.close() 
+            # write linked art to file
+            f = open(linked_art_data_directory + "/"+ filename , "w")
+            f.write(la)
+            f.close() 

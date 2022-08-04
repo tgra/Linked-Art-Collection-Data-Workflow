@@ -3,7 +3,7 @@ def init():
     myVars = {
         "default_lang": "en",
         "base_url": "https://linkedart.participatory-archives.ch/",
-        "mapped_collection_data_directory": "data/b_i_mapped_collection_data",
+        "mapped_collection_data_directory": "data/b_mapped_collection_data",
         "collection_data_directory": "data/a_collection_data",
         "linked_art_data_directory": "data/c_linked_art_data",
         "types": {

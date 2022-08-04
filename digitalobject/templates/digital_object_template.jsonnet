@@ -26,6 +26,7 @@
     type_id: 'http://vocab.getty.edu/aat/300343368',
     type_label: 'Photo Archives',
   },
+
   created_by: {
     _label: 'Digitisation of Photograph',
     used: {

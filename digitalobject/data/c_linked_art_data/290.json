@@ -1,0 +1,252 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://vocab.getty.edu/aat/300215302",
+  "type": "DigitalObject",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "Digital Image"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Owner-Assigned Title"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388344",
+          "type": "Language",
+          "_label": "German"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417447",
+          "type": "Type",
+          "_label": "Creator-Assigned Number"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "SGV Signature"
+        }
+      ],
+      "content": "SGV_10P_00290"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404621",
+          "type": "Type",
+          "_label": "PIA ID"
+        }
+      ],
+      "content": "290"
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://linkedart.participatory-archives.ch/Set/290",
+      "type": "Set",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300025976",
+          "type": "Type",
+          "_label": "Collection"
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "SGV Homepage for PIA ID 290 - ",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "SGV Homepage for PIA ID 290 - ",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "SGV Homepage for PIA ID 290 - "
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "IIIF Manifest for PIA ID 290 - ",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF Manifest for PIA ID 290 - ",
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "IIIF Manifest for PIA ID 290 - "
+            }
+          ],
+          "format": "application/ld+json",
+          "access_point": [
+            {
+              "id": "https://iiif.participatory-archives.ch/290/manifest.json",
+              "type": "DigitalObject"
+            }
+          ],
+          "conforms_to": [
+            {
+              "id": "http://iiif.io/api/presentation/3/context.json",
+              "type": "InformationObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Digitisation of Photograph",
+    "used_specific_object": [
+      {
+        "type": "HumanMadeObject",
+        "_label": "Negative of ",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300128343",
+            "type": "Type",
+            "_label": "Black and White Negative",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435443",
+                "type": "Type",
+                "_label": "Type of Work"
+              }
+            ]
+          }
+        ],
+        "dimension": [
+          {
+            "type": "Dimension",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055647",
+                "type": "Type",
+                "_label": "Width"
+              }
+            ],
+            "unit": {
+              "id": "https://linkedart.participatory-archives.ch/MeasurementUnit/792",
+              "type": "MeasurementUnit",
+              "_label": "Centimetres"
+            }
+          },
+          {
+            "type": "Dimension",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300055647",
+                "type": "Type",
+                "_label": "Width"
+              }
+            ],
+            "unit": {
+              "id": "https://linkedart.participatory-archives.ch/MeasurementUnit/793",
+              "type": "MeasurementUnit",
+              "_label": "Centimetres"
+            }
+          }
+        ],
+        "shows": [
+          {
+            "type": "VisualItem",
+            "_label": "Negative of "
+          }
+        ],
+        "produced_by": {
+          "type": "Production",
+          "timespan": {
+            "type": "TimeSpan",
+            "identified_by": [
+              {
+                "type": "Name",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300404669",
+                    "type": "Type",
+                    "_label": "Display Title"
+                  }
+                ]
+              }
+            ]
+          },
+          "took_place_at": [
+            {
+              "type": "Place"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "type": "Person"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "access_point": [
+    {
+      "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_00290.jp2/full/max/0/default.jpg",
+      "type": "DigitalObject",
+      "_label": "Image in full resolution"
+    }
+  ],
+  "digitally_available_via": [
+    {
+      "type": "DigitalService",
+      "_label": "IIIF Image API",
+      "format": "application/ld+json",
+      "access_point": [
+        {
+          "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_00290.jp2/info.json",
+          "type": "DigitalObject"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/image/3/context.json",
+          "type": "InformationObject"
+        }
+      ]
+    }
+  ]
+}

@@ -35,7 +35,8 @@ def digital_object_pattern(data,types):
     digital_object.created_by               = creation_pattern(data["created_by"], types)
 
     # digitally_shows
-    digital_object.digitally_shows          = digitally_shows_pattern(data["digitally_shows"], types)
+ #   if "digitally_shows" in data :
+      #  digital_object.digitally_shows          = digitally_shows_pattern(data["digitally_shows"], types)
 
     # identifiers
     for name_data in data["identified_by"]["names"]:

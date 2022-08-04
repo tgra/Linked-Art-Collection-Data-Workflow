@@ -15,6 +15,8 @@ template = Path(template_file).read_text()
    
 def map_collection_data(data,template):
 
+    
+
     ext_vars = {
         "id"     : data["id"],
         "title"     : data["attributes"]["title"],
@@ -23,6 +25,10 @@ def map_collection_data(data,template):
         "oldnr"     : data["attributes"]["oldnr"]
         }
 
+    for k , val in ext_vars.items():
+        if val is None:
+            ext_vars.update({k: ""})
+    
     json_str = _jsonnet.evaluate_snippet("snippet", template, ext_vars=ext_vars)
 
     return json.loads(json_str)
@@ -33,20 +39,27 @@ def map_collection_data(data,template):
 # read in config
 mapped_collection_data_directory        = settings.myVars["mapped_collection_data_directory"]
 collection_data_directory               = settings.myVars["collection_data_directory"]
-types                                   = settings.myVars["types"]
 
 
-# iterate over files in mapped_collection_data dir
-files = Path(collection_data_directory).glob('*')
+
+# iterate over files in collection_data dir
+files = Path(collection_data_directory).glob('1.json')
+
+
 for file in files:
     filename = os.path.basename(file)
     with open(file) as json_file:
         filename = os.path.basename(file)
         data = json.load(json_file)
         
-        mapped_collection_data = map_collection_data(data["data"],template)
-        
-        # write linked art to file
-        f = open(mapped_collection_data_directory + "/"+ filename , "w")
-        f.write(json.dumps(mapped_collection_data,indent=2))
-        f.close() 
+
+        for record in data["data"]:
+            
+            mapped_collection_data = map_collection_data(record,template)
+            filename = str(record["id"]) + ".json"
+            print(filename)
+            # write linked art to file
+            f = open(mapped_collection_data_directory + "/"+ filename , "w")
+            f.write(json.dumps(mapped_collection_data,indent=2))
+            f.close() 
+            
