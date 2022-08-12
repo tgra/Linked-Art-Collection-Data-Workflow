@@ -3,6 +3,13 @@ import cromulent
 import pyld
 import os
 import json
+import sys
+import inspect
+
+# allow python from parent directory to be included
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0, parentdir) 
 
 import settings
 settings.init()
@@ -23,10 +30,8 @@ factory.base_url                        = settings.myVars["base_url"]
 types                                   = settings.myVars["types"]
 
 # iterate over files in mapped_collection_data dir
-files = Path(mapped_collection_data_directory).glob('*')
-for root, dirs, files in os.walk(mapped_collection_data_directory):
-    if dirs == "example":
-        continue
+for root, directories, files in os.walk(mapped_collection_data_directory):
+    directories[:] = [d for d in directories if d not in ['example']]
     for file in files:
         filename = os.path.basename(file)
         print(filename)

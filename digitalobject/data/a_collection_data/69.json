@@ -2070,10 +2070,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34022/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34022/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -2165,10 +2162,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34023/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34023/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -2260,10 +2254,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34024/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34024/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -2359,10 +2350,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34025/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34025/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -2458,10 +2446,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34026/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34026/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -2553,10 +2538,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34027/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34027/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -2652,10 +2634,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34028/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34028/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -2747,10 +2726,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34029/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34029/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -2842,10 +2818,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34030/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34030/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -2934,10 +2907,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34031/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34031/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -3026,10 +2996,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34032/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34032/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -9958,10 +9925,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34105/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34105/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -10050,10 +10014,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34106/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34106/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -10142,10 +10103,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34107/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34107/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -10234,10 +10192,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34108/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34108/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -10326,10 +10281,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34109/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34109/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -10418,10 +10370,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34110/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34110/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -10510,10 +10459,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34111/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34111/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -10602,10 +10548,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34112/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34112/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -10694,10 +10637,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/34113/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/34113/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "909"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -47821,37 +47761,6 @@
       },
       "links": {
         "self": "https://data.participatory-archives.ch/api/v1/dates/16074"
-      }
-    },
-    {
-      "type": "places",
-      "id": "909",
-      "attributes": {
-        "label": "Frutigen",
-        "origin": "salsah",
-        "geonames_id": "6458906",
-        "geonames_url": null,
-        "geonames_code": "ADM2H",
-        "geonames_code_name": "historical second-order administrative division",
-        "geonames_division_level": "2",
-        "wiki_uri": "",
-        "geometry": "",
-        "latitude": "46.56761",
-        "longitude": "7.67566",
-        "altitude": "",
-        "createdAt": null,
-        "updatedAt": null
-      },
-      "relationships": {
-        "images": {
-          "links": {
-            "related": "https://data.participatory-archives.ch/api/v1/places/909/images",
-            "self": "https://data.participatory-archives.ch/api/v1/places/909/relationships/images"
-          }
-        }
-      },
-      "links": {
-        "self": "https://data.participatory-archives.ch/api/v1/places/909"
       }
     },
     {

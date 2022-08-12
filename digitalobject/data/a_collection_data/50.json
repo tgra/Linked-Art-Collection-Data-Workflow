@@ -3935,10 +3935,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/24542/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/24542/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "656"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -13653,10 +13650,7 @@
             "related": "https://data.participatory-archives.ch/api/v1/images/24645/place",
             "self": "https://data.participatory-archives.ch/api/v1/images/24645/relationships/place"
           },
-          "data": {
-            "type": "places",
-            "id": "656"
-          }
+          "data": null
         },
         "verso": {
           "links": {
@@ -38978,6 +38972,10 @@
             {
               "type": "collections",
               "id": "13"
+            },
+            {
+              "type": "collections",
+              "id": "113"
             }
           ]
         },
@@ -47832,37 +47830,6 @@
     },
     {
       "type": "places",
-      "id": "656",
-      "attributes": {
-        "label": "Entlebuch",
-        "origin": "salsah",
-        "geonames_id": "2660887",
-        "geonames_url": null,
-        "geonames_code": "PPL",
-        "geonames_code_name": "populated place",
-        "geonames_division_level": "3",
-        "wiki_uri": "",
-        "geometry": "{\"type\": \"Polygon\", \"coordinates\": [[[8.0097305, 46.9804448], [8.0100397, 46.9804712], [8.010343, 46.9805304], [8.010616, 46.9806031], [8.0108494, 46.9806839], [8.0110147, 46.9807937], [8.0111948, 46.9808968], [8.0112097, 46.9809265], [8.0112928, 46.9809872], [8.0116073, 46.981102], [8.0119307, 46.981136], [8.012293, 46.9811818], [8.0124548, 46.9812572], [8.0126126, 46.9813917], [8.012719, 46.9814943], [8.0127878, 46.9815472], [8.012871, 46.9816014], [8.0129702, 46.981655], [8.0133435, 46.9817675], [8.0133761, 46.9817857], [8.0134028, 46.981808], [8.0134225, 46.9818336], [8.0134343, 46.9818612], [8.0136233, 46.9818784], [8.0139642, 46.9820013], [8.0140941, 46.9820274], [8.0142196, 46.9820376], [8.0142878, 46.9820351], [8.0143674, 46.9820271], [8.0145133, 46.982001], [8.0145511, 46.9819917], [8.0146644, 46.9819356], [8.0151253, 46.9818902], [8.0151712, 46.9818979], [8.0152144, 46.981911], [8.0152534, 46.9819292], [8.0152904, 46.9819546], [8.0153169, 46.9819814], [8.0153406, 46.9820169], [8.0153643, 46.9820584], [8.0155102, 46.9823981], [8.0155306, 46.9824201], [8.0155527, 46.9824326], [8.0155821, 46.982441], [8.0160245, 46.9824988], [8.0160497, 46.9825094], [8.0160664, 46.9825193], [8.0161725, 46.982633], [8.0162294, 46.9828818], [8.0162635, 46.9829343], [8.0163071, 46.9829835], [8.0164654, 46.9829936], [8.0165719, 46.9830113], [8.016867, 46.983119], [8.0169046, 46.9830861], [8.0170215, 46.9830021], [8.0170185, 46.9829752], [8.0169807, 46.9828549], [8.0169981, 46.9827083], [8.0171494, 46.9826695], [8.0172438, 46.9826329], [8.0172747, 46.9826142], [8.01735, 46.9825545], [8.0174765, 46.9824788], [8.017476, 46.9824534], [8.017709, 46.9823641], [8.0180758, 46.9823113], [8.0186097, 46.9821773], [8.0188119, 46.9821149], [8.0190442, 46.9819846], [8.0193866, 46.9818654], [8.0195351, 46.9818042], [8.0196796, 46.9816873], [8.0196608, 46.9816583], [8.0199264, 46.9814176], [8.0204835, 46.9808998], [8.0205454, 46.9807596], [8.0207504, 46.9804978], [8.0209084, 46.9803122], [8.0211354, 46.9800953], [8.02134, 46.9798008], [8.0215062, 46.9795956], [8.0216634, 46.9792669], [8.0219095, 46.9787782], [8.0219169, 46.978549], [8.0220566, 46.97804], [8.0221937, 46.977573], [8.0226517, 46.9769675], [8.0227751, 46.9765397], [8.0225343, 46.9764902], [8.0221859, 46.9763352], [8.021862, 46.9761492], [8.0215896, 46.976067], [8.0211436, 46.975847], [8.0209897, 46.9756525], [8.0206249, 46.9756535], [8.0202393, 46.9755196], [8.0198857, 46.9754753], [8.0195119, 46.9753319], [8.0191159, 46.9752086], [8.0188699, 46.975067], [8.0185771, 46.974991], [8.0179602, 46.9749392], [8.0174348, 46.9747571], [8.01712, 46.9745346], [8.0168703, 46.9743361], [8.0166301, 46.974126], [8.0164176, 46.9738532], [8.0161358, 46.9733638], [8.0159825, 46.9731261], [8.0153668, 46.9728203], [8.0150996, 46.9726955], [8.0146628, 46.9732264], [8.0143125, 46.9738113], [8.0137775, 46.9741903], [8.0129848, 46.9748016], [8.012494, 46.9755116], [8.0121097, 46.9761607], [8.012077, 46.9762445], [8.0119523, 46.9764346], [8.0117374, 46.9766314], [8.0116262, 46.9769446], [8.0115192, 46.9769979], [8.0113764, 46.9771259], [8.011266, 46.9771748], [8.0109681, 46.9774898], [8.0108574, 46.9776521], [8.0107947, 46.977788], [8.0106294, 46.9780376], [8.0106216, 46.9782696], [8.010477, 46.9784133], [8.0104341, 46.9784612], [8.0104222, 46.9785279], [8.0104156, 46.9786205], [8.0103443, 46.9787026], [8.0103508, 46.9787416], [8.0102128, 46.9790241], [8.0102286, 46.9791617], [8.0101549, 46.9793878], [8.0100833, 46.9794063], [8.0099706, 46.9795485], [8.0099365, 46.9796402], [8.010033, 46.9798527], [8.0099256, 46.980083], [8.0099136, 46.9801864], [8.0098794, 46.9802719], [8.0098241, 46.9802914], [8.0097305, 46.9804448]]]}",
-        "latitude": "46.99559",
-        "longitude": "8.06354",
-        "altitude": "",
-        "createdAt": null,
-        "updatedAt": null
-      },
-      "relationships": {
-        "images": {
-          "links": {
-            "related": "https://data.participatory-archives.ch/api/v1/places/656/images",
-            "self": "https://data.participatory-archives.ch/api/v1/places/656/relationships/images"
-          }
-        }
-      },
-      "links": {
-        "self": "https://data.participatory-archives.ch/api/v1/places/656"
-      }
-    },
-    {
-      "type": "places",
       "id": "535",
       "attributes": {
         "label": "Eggiwil",
@@ -54269,6 +54236,86 @@
       },
       "links": {
         "self": "https://data.participatory-archives.ch/api/v1/dates/9876"
+      }
+    },
+    {
+      "type": "collections",
+      "id": "113",
+      "attributes": {
+        "salsah_id": null,
+        "label": "Ei Chlapf nachem andere",
+        "signature": null,
+        "description": null,
+        "default_image": null,
+        "embedded_video": null,
+        "origin": "pia",
+        "createdAt": "2022-08-04T12:42:24.000000Z",
+        "updatedAt": "2022-08-04T12:42:24.000000Z"
+      },
+      "relationships": {
+        "date": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/113/date",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/113/relationships/date"
+          }
+        },
+        "images": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/113/images",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/113/relationships/images"
+          }
+        },
+        "comments": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/113/comments",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/113/relationships/comments"
+          }
+        },
+        "agents": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/113/agents",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/113/relationships/agents"
+          }
+        },
+        "literatures": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/113/literatures",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/113/relationships/literatures"
+          }
+        },
+        "alt-labels": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/113/alt-labels",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/113/relationships/alt-labels"
+          }
+        },
+        "documents": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/113/documents",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/113/relationships/documents"
+          }
+        },
+        "keywords": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/113/keywords",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/113/relationships/keywords"
+          }
+        },
+        "maps": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/113/maps",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/113/relationships/maps"
+          }
+        },
+        "notes": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/113/notes",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/113/relationships/notes"
+          }
+        }
+      },
+      "links": {
+        "self": "https://data.participatory-archives.ch/api/v1/collections/113"
       }
     },
     {
