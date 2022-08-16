@@ -5,9 +5,7 @@ This project repository contains files that demonstrate a workflow for transform
 
 The workflow includes reusable elements so that it can be repurposed with a different data source and/or different data model entities.
 
-The Python code makes use of jsonnet code templates and cromulent Python library.
-
-The code transformed three types of photographic entity to their corresponding representation in Linked Art:
+The Python code makes use of jsonnet code templates and cromulent Python library, and transforms three types of photographic entity to their corresponding representation in Linked Art:
 - digital photographic image 
   - to digitalobject
 - photographic negative 
@@ -16,12 +14,14 @@ The code transformed three types of photographic entity to their corresponding r
   -  to set
 
 # How to install
-Clone the GitHub repository .
+## Clone the GitHub repository:
 ```
     git clone https://github.com/tgra/Linked-Art-Collection-Data-Workflow.git
 ```
 
-or download the zip file provided:
+or, 
+
+## Download the zip file provided:
 
 https://github.com/tgra/Linked-Art-Collection-Data-Workflow/archive/refs/heads/main.zip
 
