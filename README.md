@@ -7,10 +7,13 @@ The workflow includes reusable elements so that it can be repurposed with a diff
 
 The Python code makes use of jsonnet code templates and cromulent Python library.
 
-The code transformed three types of entity to Linked Art:
-- digital object i.e. digital image
-- humanmadeobject  i.e. photograph negative
-- set i.e. photographic collection
+The code transformed three types of photographic entity to their corresponding representation in Linked Art:
+- digital photographic image 
+  - to digitalobject
+- photographic negative 
+  - to humanmadeobject
+- photographic collection
+  -  to set
 
 # How to install
 Clone the GitHub repository .
@@ -24,7 +27,7 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow/archive/refs/heads/m
 
 # Example usage
 
-The transform collection data for digital images data, available via the PIA JSON API, to Linked Art:
+To transform collection data for digital images data, available via the PIA JSON API, to Linked Art:
 
 1. extract data (and save locally)
 ```python
