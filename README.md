@@ -15,7 +15,7 @@ The code transformed three types of entity to Linked Art:
 # How to install
 Clone the GitHub repository .
 ```
-    git clone https://github.com/tgra/Linked-Art-Collection-Data-Workflow.git```
+    git clone https://github.com/tgra/Linked-Art-Collection-Data-Workflow.git
 ```
 
 or download the zip file provided:
@@ -28,7 +28,9 @@ The transform collection data for digital images data, available via the PIA JSO
 
 1. extract data (and save locally)
 ```python
-cd digitalobjevt
+cd digitalobject
+```
+```python
 python3 a_query_api.py
 ```
 
