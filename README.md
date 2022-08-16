@@ -98,5 +98,9 @@ See [./docs](documentation)
 Raise an issue via https://github.com/tgra/Linked-Art-Collection-Data-Workflow/issues
 
 # Acknowledgements
-This work was undertaken by the Linked Art II project at the University of Oxford (Principal Investigator: Dr. Kevin Page, Oxford e-Research Centre) funded by the UK Arts and Humanities Research Council (AHRC project reference AH/T013117/1). The project's Research Software Engineer was Tanya Gray. We gratefully acknowledge the participation and contributions of our project partners and the wider Linked Art community.
+This work was undertaken by the Linked Art II project at the University of Oxford (Principal Investigator: Dr. Kevin Page, Oxford e-Research Centre) funded by the UK Arts and Humanities Research Council (AHRC project reference AH/T013117/1). 
+
+The project's Research Software Engineer was Tanya Gray. 
+
+We gratefully acknowledge the participation and contributions of our project partners and the wider Linked Art community.
 
