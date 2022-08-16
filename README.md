@@ -14,8 +14,9 @@ The code transformed three types of entity to Linked Art:
 
 # How to install
 Clone the GitHub repository .
-
+```
     git clone https://github.com/tgra/Linked-Art-Collection-Data-Workflow.git```
+```
 
 or download the zip file provided:
 
@@ -26,16 +27,19 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow/archive/refs/heads/m
 The transform collection data for digital images data, available via the PIA JSON API, to Linked Art:
 
 1. extract data (and save locally)
-    cd digitalobjevt
-    python3 a_query_api.py```
+```python
+cd digitalobjevt
+python3 a_query_api.py
+```
 
 2. map data (to intermediate data template)
-
-    python3 b_map_data.py
-
+```python
+python3 b_map_data.py
+```
 3. transform data (to Linked Art)
-
-    python3 c_linked_art.py
+```python
+python3 c_linked_art.py
+```
 
 # How to set up the dev environment
 To run the Python scripts it's recommended that you create a virtual environment with venv, and install the dependencies listed.
@@ -44,16 +48,23 @@ To run the Python scripts it's recommended that you create a virtual environment
 
 ###  macosx  
 https://pip.pypa.io/en/stable/installation/
-    python -m ensurepip --upgrade
 
+```python
+python -m ensurepip --upgrade
+```
 ## Create virtual environment with venv
 https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments
-    python3 -m venv <DIR>
-    source <DIR>/bin/activate
+
+```python
+python3 -m venv <DIR>
+source <DIR>/bin/activate
+```
 
 ## command line install Python libraries
 Install the following Python libraries with following pattern:
-    python3 -m pip install <name> e.g. python3 -m pip install cromulent
+```python 
+python3 -m pip install <name> e.g. python3 -m pip install cromulent
+```
 
 - cromulent
 - requests
