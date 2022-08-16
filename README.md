@@ -65,7 +65,11 @@ source <DIR>/bin/activate
 ## command line install Python libraries
 Install the following Python libraries with following pattern:
 ```python 
-python3 -m pip install <name> e.g. python3 -m pip install cromulent
+python3 -m pip install <name> 
+```
+For example: 
+```python
+python3 -m pip install cromulent
 ```
 
 - cromulent
