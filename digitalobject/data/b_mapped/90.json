@@ -1,0 +1,92 @@
+{
+  "_label": "[Hermann Kreis neben Blumenstr\u00e4ussen]",
+  "access_point": {
+    "_label": "Image in full resolution",
+    "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_00090.jp2/full/max/0/default.jpg"
+  },
+  "created_by": {
+    "_label": "Digitisation of Photograph",
+    "used": {
+      "_label": "Negative of [Hermann Kreis neben Blumenstr\u00e4ussen]",
+      "produced_by_event": {
+        "begin": "1936-01-01",
+        "display_title": "GREGORIAN:CE:1936",
+        "end": ""
+      },
+      "shows": {
+        "_label": "Visual Content of Negative of [Hermann Kreis neben Blumenstr\u00e4ussen]"
+      }
+    }
+  },
+  "current_owner": {
+    "_label": "SGV Fotoarchiv",
+    "id": "https://linkedart.participatory-archives.ch/group/42",
+    "type_id": "http://vocab.getty.edu/aat/300343368",
+    "type_label": "Photo Archives"
+  },
+  "digitally_shows": {
+    "_label": "Visual Content of Digital Positive of [Hermann Kreis neben Blumenstr\u00e4ussen]"
+  },
+  "id": "90",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "[Hermann Kreis neben Blumenstr\u00e4ussen]",
+        "language": {
+          "_label": "German",
+          "id": "http://vocab.getty.edu/aat/300388344"
+        },
+        "type": {
+          "_label": "Owner-Assigned Title",
+          "id": "http://vocab.getty.edu/aat/300404670"
+        }
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "90"
+      }
+    ],
+    "sgv-signature": [
+      {
+        "type": {
+          "_label": "SGV Signature",
+          "id": "http://vocab.getty.edu/aat/300312355"
+        },
+        "value": "SGV_10P_00090"
+      }
+    ]
+  },
+  "iiif_image_api": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_00090.jp2/info.json",
+  "member_of": [
+    {
+      "_label": "SGV_10",
+      "classified_as": [
+        {
+          "_label": "Collection",
+          "id": "http://vocab.getty.edu/aat/300025976",
+          "type": "Type"
+        }
+      ],
+      "id": "https://linkedart.participatory-archives.ch/set/4",
+      "type": "Set"
+    }
+  ],
+  "subject_of": [
+    {
+      "_label": "SGV Homepage for PIA ID 90 - [Hermann Kreis neben Blumenstr\u00e4ussen]",
+      "access_point_id": "https://archiv.sgv-sstp.ch/resource/473598",
+      "type": "http://vocab.getty.edu/aat/300264578"
+    },
+    {
+      "_label": "IIIF Manifest for PIA ID 90 - [Hermann Kreis neben Blumenstr\u00e4ussen]",
+      "access_point_id": "https://iiif.participatory-archives.ch/90/manifest.json",
+      "type": "iiif"
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300215302"
+}

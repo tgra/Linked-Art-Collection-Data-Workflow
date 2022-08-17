@@ -137,11 +137,18 @@ def digital_object_pattern(data,types):
         digital_object.digitally_shows          = digitally_shows_pattern(data["digitally_shows"], types)
 
     # identifiers
-    for name_data in data["identified_by"]["names"]:
-        digital_object.identified_by        = name_pattern(name_data, types)
+    if "name" in data["identified_by"]:
+        for name_data in data["identified_by"]["name"]:
+            digital_object.identified_by        = name_pattern(name_data, types)
 
-    for id_data in data["identified_by"]["identifiers"]:
-        digital_object.identified_by        = identifier_pattern(id_data, types)
+    if "pia-id" in  data["identified_by"]:
+        digital_object.identified_by        = identifier_pattern(data["identified_by"]["pia-id"][0], types)
+
+    if "sgv-signature" in  data["identified_by"]:
+        digital_object.identified_by        = identifier_pattern(data["identified_by"]["sgv-signature"][0], types)
+
+    if "creator-assigned" in  data["identified_by"]:
+        digital_object.identified_by        = identifier_pattern(data["identified_by"]["creator-assigned"][0], types)
 
     # access point
     if "access_point" in data:
@@ -176,8 +183,8 @@ def type_pattern(id, types):
 
 def collection_pattern(data, types):
 
-    id = data["id"]
-    label = data["_label"]
+    id = data["member_of"][0]["id"]
+    label = data["member_of"][0]["_label"]
     collection_type_id = "http://vocab.getty.edu/aat/300025976"
 
     collection = Set(ident=id, label=label)
@@ -193,7 +200,7 @@ def web_page_pattern(data, types):
     web_page_id = "http://vocab.getty.edu/aat/300264578"
 
     digital_object = DigitalObject(ident="", label=label)
-    digital_object.identified_by = Name(ident="", label=label)
+    digital_object.identified_by = Name(ident="", content=label)
     digital_object.format = "text/html"
     digital_object.access_point = DigitalObject(ident=access_point_id)
     digital_object.classified_as = type_pattern(web_page_id, types)
@@ -238,7 +245,7 @@ def negative_pattern(data, types):
 
      # width
     
-    if data["width"] != "":
+    if "width" in data and data["width"] != "":
         width = Dimension(ident="", label="")
         width_type_id = "http://vocab.getty.edu/aat/300055647"
         width.classified_as = type_pattern(width_type_id, types)
@@ -247,7 +254,7 @@ def negative_pattern(data, types):
         hmo.dimension = width
     # height
     
-    if data["height"] != "":
+    if "height" in data and data["height"] != "":
         height = Dimension(ident="", label="")
         height_type_id = "http://vocab.getty.edu/aat/300055644"
         height.classified_as = type_pattern(height_type_id, types)
@@ -299,6 +306,8 @@ def creation_pattern(data, types, ):
     # production
     production = Production(ident="", label="")
 
+    if "produced_by_event" not in data["used"]:
+        return {} 
     data_prod = data["used"]["produced_by_event"]
 
     # production timespan
@@ -315,21 +324,23 @@ def creation_pattern(data, types, ):
     production.timespan = timespan
 
     # production location
-    for place in data_prod["location"]:
-        if "id" in  place and place["id"] != "":
+    if "location" in data_prod:
+        for place in data_prod["location"]:
+            if "id" in  place and place["id"] != "":
 
-            pl =  Place(ident=place["id"], label=place["_label"])
-            pl.identified_by = Identifier(ident=place["id"],label='local identifier')
+                pl =  Place(ident=place["id"], label=place["_label"])
+                pl.identified_by = Identifier(ident=place["id"],label='local identifier')
 
-            if place["geonames_id"]   != "":
-                pl.identified_by = Identifier(ident=place["geonames_id"],label='geonames identifier')
+                if place["geonames_id"]   != "":
+                    pl.identified_by = Identifier(ident=place["geonames_id"],label='geonames identifier')
 
-            production.took_place_at = pl
+                production.took_place_at = pl
 
     # production carried out by
-    for person in data_prod["person"]:
-        if  person["id"] != "":
-            production.carried_out_by = Person(ident=person["id"], label=person["_label"])
+    if "person" in data_prod:
+        for person in data_prod["person"]:
+            if  person["id"] != "":
+                production.carried_out_by = Person(ident=person["id"], label=person["_label"])
 
     # negative
     negative = negative_pattern(data["used"], types)
@@ -360,7 +371,9 @@ def digitally_shows_pattern(data, types):
     label = data["_label"]
     
     visual_item = VisualItem(ident="", label=label)
-    visual_item.represents_instance_of_type = type_pattern(data["type_id"], types)
+
+    if "type_id" in data:
+        visual_item.represents_instance_of_type = type_pattern(data["type_id"], types)
 
     return visual_item
 

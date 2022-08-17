@@ -1,11 +1,20 @@
 def init():
     global myVars
     myVars = {
-        "default_lang": "en",
-        "base_url": "https://linkedart.participatory-archives.ch/",
-        "mapped_collection_data_directory": "data/b_mapped_collection_data",
-        "collection_data_directory": "data/a_collection_data",
-        "linked_art_data_directory": "data/c_linked_art_data",
+        "default_lang"          : "en",
+        "base_url"              : "https://linkedart.participatory-archives.ch/",
+
+        "page_size"             : 500,
+
+        "pia_api_uri"           : "https://data.participatory-archives.ch/api/v1/images",
+
+        "a_collection"         : "data/a_collection",
+        "b_mapped"             : "data/b_mapped",
+        "c_linked_art"         : "data/c_linked_art",
+
+
+        "digitalobject_template" : "../templates/digital_object_template.jsonnet",
+
         "types": {
             "http://vocab.getty.edu/aat/300215302": {
                 "_label": "Digital Image"

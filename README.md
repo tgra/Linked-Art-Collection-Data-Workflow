@@ -14,14 +14,15 @@ The Python code makes use of jsonnet code templates and cromulent Python library
   -  to set
 
 # How to install
-## Clone the GitHub repository:
+
+## Clone the GitHub repository
 ```
     git clone https://github.com/tgra/Linked-Art-Collection-Data-Workflow.git
 ```
 
-or, 
+or 
 
-## Download the zip file provided:
+## Download the zip file provided
 
 https://github.com/tgra/Linked-Art-Collection-Data-Workflow/archive/refs/heads/main.zip
 
