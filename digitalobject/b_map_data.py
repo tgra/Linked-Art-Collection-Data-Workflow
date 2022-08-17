@@ -3,6 +3,7 @@ import _jsonnet
 import inspect
 import json
 import os
+from os import walk
 from pathlib import Path
 import sys
 
@@ -64,14 +65,18 @@ def map_collection_data(data,template,dates,places,collections):
         "geonames_id"   : "",
         "place_label"   : "",
 
-        "collection_id": ""
+        "collection_id": "",
+        "collection_label"  : ""
         }
 
     # add collections
-
     try:
         collection_id = data["relationships"]["collections"]["data"][0]["id"]
-        ext_vars["collection_id"] = collection_id
+        
+        for collection in collections:
+            if  collection["id"] == collection_id:
+                ext_vars["collection_id"] = collection_id
+                ext_vars["collection_label"] =   collection["attributes"]["label"]
     except:
         pass
 
@@ -117,7 +122,7 @@ def map_collection_data(data,template,dates,places,collections):
 
 # iterate over files in collection_data dir
 
-from os import walk
+
 
 files = []
 for (dirpath, dirnames, filenames) in walk(a_collection):

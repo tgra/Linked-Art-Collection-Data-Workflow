@@ -6,13 +6,6 @@ import requests
 import sys
 import traceback
 
-'''
-This script queries the PIA JSON API using variables in settings.py and writes the JSON data returned to a local directory
-
-'''
-
-
-
 # allow python from parent directory to be included
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)

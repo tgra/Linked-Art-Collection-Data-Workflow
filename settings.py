@@ -14,6 +14,7 @@ def init():
 
 
         "digitalobject_template" : "../templates/digital_object_template.jsonnet",
+        "humanmadeobject_template" : "../templates/humanmadeobject_template.jsonnet",
 
         "types": {
             "http://vocab.getty.edu/aat/300215302": {
