@@ -31,7 +31,7 @@ page_size           = settings.myVars["page_size"]
 total_pages         = 1
 
 # URI for PIA API
-api_uri             = settings.myVars["pia_api_uri"] + "images"
+api_uri             = settings.myVars["pia_api_uri"] + "collections"
 
 # API URI
 

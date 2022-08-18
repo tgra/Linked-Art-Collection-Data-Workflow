@@ -6,7 +6,7 @@ def init():
 
         "page_size"             : 500,
 
-        "pia_api_uri"           : "https://data.participatory-archives.ch/api/v1/images",
+        "pia_api_uri"           : "https://data.participatory-archives.ch/api/v1/",
 
         "a_collection"         : "data/a_collection",
         "b_mapped"             : "data/b_mapped",
