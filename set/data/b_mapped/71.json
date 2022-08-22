@@ -1,0 +1,30 @@
+{
+  "_label": "T\u00fcr und Tor Graub\u00fcnden",
+  "id": "https://linkedart.participatory-archives.ch/set/71",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "T\u00fcr und Tor Graub\u00fcnden"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "71"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  T\u00fcr und Tor Graub\u00fcnden",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/71.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

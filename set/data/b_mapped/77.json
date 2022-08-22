@@ -1,0 +1,30 @@
+{
+  "_label": "Commons: Wasser",
+  "id": "https://linkedart.participatory-archives.ch/set/77",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Commons: Wasser"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "77"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Commons: Wasser",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/77.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

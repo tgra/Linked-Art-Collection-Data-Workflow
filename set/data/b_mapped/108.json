@@ -1,0 +1,30 @@
+{
+  "_label": "Cuties from the Archive",
+  "id": "https://linkedart.participatory-archives.ch/set/108",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Cuties from the Archive"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "108"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Cuties from the Archive",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/108.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

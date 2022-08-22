@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://vocab.getty.edu/aat/300025976",
+  "type": "Set",
+  "_label": "Mathilde mit Hund",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025976",
+      "type": "Type",
+      "_label": "Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Owner-Assigned Title",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404621",
+          "type": "Type",
+          "_label": "PIA ID",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "94"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "IIIF Collection for  Mathilde mit Hund",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF Collection for  Mathilde mit Hund",
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "IIIF Collection for  Mathilde mit Hund"
+            }
+          ],
+          "format": "application/ld+json",
+          "access_point": [
+            {
+              "id": "https://iiif.participatory-archives.ch/collections/94.json",
+              "type": "DigitalObject"
+            }
+          ],
+          "conforms_to": [
+            {
+              "id": "http://iiif.io/api/presentation/3/context.json",
+              "type": "InformationObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

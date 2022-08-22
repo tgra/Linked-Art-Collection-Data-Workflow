@@ -1,4 +1,5 @@
 
+from multiprocessing.util import log_to_stderr
 from this import d
 import cromulent
 import pyld
@@ -10,28 +11,45 @@ from cromulent.vocab import Type, Set, LinguisticObject, Name, InformationObject
 
 # ==========================
 
+def set_pattern(data,types):
+    # identifier and label
+    id = data["type"]
+    label = data["_label"]
+    
+    set = Set(ident=id, label=label)
 
-'''
-- id
-- type
-- _label
-- classified_as
-- member_of
-- subject_of
--- homepage
--- iiif manifest 
-- current_owner
-- produced_by
-- dimension
-- shows
-- identified_by
-- representation visualitem
--- digitally_shown_by
--- digitally_available_via
+    # classified_as
+    set.classified_as = type_pattern(id, types)
 
+    # subject_of web page
+    if "homepage" in data["subject_of"][0]:
+        set.subject_of = web_page_pattern(data["subject_of"][0]["homepage"], types)
 
+    # subject_of iiif
+    set.subject_of = iiif_pattern(data["subject_of"][0]["iiif"], types)
 
-  '''
+   # identifiers
+    if "name" in data["identified_by"]:
+        for name_data in data["identified_by"]["name"]:
+            set.identified_by = name_pattern(name_data, types)
+
+    if "pia-id" in data["identified_by"]:
+        set.identified_by = identifier_pattern(
+            data["identified_by"]["pia-id"][0], types)
+
+    if "sgv-signature" in data["identified_by"]:
+        set.identified_by = identifier_pattern(
+            data["identified_by"]["sgv-signature"][0], types)
+
+    if "description" in data:
+        lo_type = Type(id= "http://vocab.getty.edu/aat/300435416", label="Description")
+        lo_type.classified_as = Type(id="http://vocab.getty.edu/aat/300418049", label="Brief Text")
+        lo = LinguisticObject(id="", content=data["description"])
+        lo.classified_as = lo_type
+        set.referred_to_by =  lo
+
+    return set
+
 
 
 def humanmadeobject_pattern(data, types):
@@ -410,8 +428,9 @@ def name_pattern(data, types):
     name = Name(ident="", label="")
     name.classified_as = type_pattern(
         "http://vocab.getty.edu/aat/300404670", types)
-    name.language = Language(
-        ident=data["language"]["id"], label=data["language"]["_label"])
+    if "language" in data:
+        name.language = Language(
+            ident=data["language"]["id"], label=data["language"]["_label"])
 
     return name
 

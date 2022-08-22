@@ -1,0 +1,30 @@
+{
+  "_label": "winter",
+  "id": "https://linkedart.participatory-archives.ch/set/89",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "winter"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "89"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  winter",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/89.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

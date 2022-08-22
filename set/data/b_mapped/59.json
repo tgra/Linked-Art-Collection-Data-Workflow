@@ -1,0 +1,30 @@
+{
+  "_label": "Waldarbeit",
+  "id": "https://linkedart.participatory-archives.ch/set/59",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Waldarbeit"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "59"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Waldarbeit",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/59.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

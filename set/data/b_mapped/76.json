@@ -1,0 +1,30 @@
+{
+  "_label": "Wo galoppieren diese R\u00f6ssli?",
+  "id": "https://linkedart.participatory-archives.ch/set/76",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Wo galoppieren diese R\u00f6ssli?"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "76"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Wo galoppieren diese R\u00f6ssli?",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/76.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

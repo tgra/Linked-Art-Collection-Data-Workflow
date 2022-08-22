@@ -1,0 +1,164 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://vocab.getty.edu/aat/300025976",
+  "type": "Set",
+  "_label": "SGV_11",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025976",
+      "type": "Type",
+      "_label": "Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Owner-Assigned Title",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404621",
+          "type": "Type",
+          "_label": "PIA ID",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "2"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "SGV Signature",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "SGV_11"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.participatory-archives.ch/LinguisticObject/14",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "https://linkedart.participatory-archives.ch/Type/28",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "https://linkedart.participatory-archives.ch/Type/29",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "content": "<p>Die Sammlung Olga Frey-Schmidlin ist seit 1997 im Besitz der SGV und besteht aus einem handgeschriebenem Reisetagebuch und sechs Alben. Das Tagebuch enthält Fotografien und Postkarten aus der Zeit um 1900 und beschreibt eine einjährige Reise aus dem kleinstädtischen Aarau ins imperiale Berlin und an die Ostsee. In der Reihe „<a href=\"http://www.volkskunde.ch/sgv/publikationen/buecher/katalog/volkskundliches-taschenbuch.html\">Das Volkskundliche Taschenbuch</a>“ ist 1997 ein Band mit den Aufzeichnungen von <a class=\"salsah-link\" href=\"IRI:629824:IRI\">Olga Frey-Schmidlin</a> erschienen (<a href=\"http://www.limmatverlag.ch/programm/titel/474-grossstadtluft-und-meereslust.html\">Grossstadtluft und Meeresluft: Eine Reise nach Berlin und an die Ostsee 1900</a>). Die sechs Alben zeigen die Familie von <a class=\"salsah-link\" href=\"IRI:629935:IRI\">Rosa Hunziker-Frey</a>, der Tochter von Olga und <a class=\"salsah-link\" href=\"IRI:629927:IRI\">Othmar Frey-Schmidlin</a>. Die 919 darin enthaltenen Fotografien stammen aus der Zeit zwischen 1906 und 1940 und wurden teils in Paterson (USA), teils in der Schweiz aufgenommen. Häufige Motive sind Porträts von Familienmitgliedern, Wohnhäuser und Innenräume, Ferien- und Ausflugsbilder sowie Aufnahmen von den Überfahrten auf dem Schiff. Um 1920 kehrte die Familie zurück in die Schweiz und wohnte ab dann auf dem Schloss Liebegg im Kanton Aargau.</p>"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "SGV Homepage for SGV_11",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "SGV Homepage for SGV_11",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300435443",
+                  "type": "Type",
+                  "_label": "Type of Work"
+                }
+              ]
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "SGV Homepage for SGV_11"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://archiv.sgv-sstp.ch/collection/SGV_11/",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "IIIF Collection for  SGV_11",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF Collection for  SGV_11",
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "IIIF Collection for  SGV_11"
+            }
+          ],
+          "format": "application/ld+json",
+          "access_point": [
+            {
+              "id": "https://iiif.participatory-archives.ch/collections/2.json",
+              "type": "DigitalObject"
+            }
+          ],
+          "conforms_to": [
+            {
+              "id": "http://iiif.io/api/presentation/3/context.json",
+              "type": "InformationObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

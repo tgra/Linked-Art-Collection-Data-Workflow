@@ -1,0 +1,164 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://vocab.getty.edu/aat/300025976",
+  "type": "Set",
+  "_label": "SGV_09",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025976",
+      "type": "Type",
+      "_label": "Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Owner-Assigned Title",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404621",
+          "type": "Type",
+          "_label": "PIA ID",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "6"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "SGV Signature",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "SGV_09"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.participatory-archives.ch/LinguisticObject/19",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "https://linkedart.participatory-archives.ch/Type/38",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "https://linkedart.participatory-archives.ch/Type/39",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "content": "<p>Die Objekte dieser umfangreichen und heterogenen Sammlung stammen aus dem Nachlass der Familie Surbeck. Der Ingenieur und Chemiker <a class=\"salsah-link\" href=\"IRI:367451:IRI\">Heinrich Surbeck</a> (1876–1945) aus Hallau (SH) wanderte aus gesundheitlichen Gründen in das unter niederländischer Kolonialherrschaft stehende Sumatra aus, wo er 1902 eine Stelle als technischer Leiter auf einer von Schweizern geführten Gambir-Plantage antrat. Dank dem Wissenstransfer aus der Schweiz konnte er dort im technischen Bereich Pionierarbeit leisten. Der von ihm produzierte und in Europa gut verkaufte vorzügliche Seidenfarbstoff brachte seiner Gesellschaft grosse Gewinne ein. Bald darauf führte er in Nord-Sumatra seine eigenen Fabriken und baute das „Siantar-Hotel“. 1908 heiratete er die Schweizerin <a class=\"salsah-link\" href=\"IRI:2130268:IRI\">Rosette Fankhauser</a> aus Konolfingen; ihre vier Kinder kamen auf Sumatra zur Welt. Der Nachlass der Familie Surbeck umfasst rund 5'500 fotografische Abzüge – teils lose, teils in Fotoalben eingeklebt –, 2'200 Stereoaufnahmen, Autochrome, eingerahmte Porträts und über tausend Postkarten, die er aus der Schweiz zugesandt bekam. Diese fotografischen Objekte, die Foto- und Laborausrüstung, die Stereodiabetrachter, die Reisedokumente sowie die private und geschäftliche Korrespondenz zeigen einerseits das Leben in Sumatra und die Arbeitssituation der Auslandschweizer. Andererseits geben sie einen detaillierten Blick auf die zahlreichen Reisen zurück in die Schweiz via Indien, den Nahen Osten und das Mittelmeer sowie auf die Feriendestinationen der Familie Surbeck in der Schweiz.</p>"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "SGV Homepage for SGV_09",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "SGV Homepage for SGV_09",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300435443",
+                  "type": "Type",
+                  "_label": "Type of Work"
+                }
+              ]
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "SGV Homepage for SGV_09"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://archiv.sgv-sstp.ch/collection/SGV_09/",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "IIIF Collection for  SGV_09",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF Collection for  SGV_09",
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "IIIF Collection for  SGV_09"
+            }
+          ],
+          "format": "application/ld+json",
+          "access_point": [
+            {
+              "id": "https://iiif.participatory-archives.ch/collections/6.json",
+              "type": "DigitalObject"
+            }
+          ],
+          "conforms_to": [
+            {
+              "id": "http://iiif.io/api/presentation/3/context.json",
+              "type": "InformationObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

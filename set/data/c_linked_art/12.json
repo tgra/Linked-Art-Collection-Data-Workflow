@@ -1,0 +1,164 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://vocab.getty.edu/aat/300025976",
+  "type": "Set",
+  "_label": "SGV_02",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025976",
+      "type": "Type",
+      "_label": "Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Owner-Assigned Title",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404621",
+          "type": "Type",
+          "_label": "PIA ID",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "12"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "SGV Signature",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "SGV_02"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.participatory-archives.ch/LinguisticObject/6",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "https://linkedart.participatory-archives.ch/Type/12",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "https://linkedart.participatory-archives.ch/Type/13",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "content": "<p>Seit dem 14. Oktober 1980 bewahrt das SGV-Fotoarchiv die ehemalige Sammlung des Amts für Berufsberatung der Stadt Zürich (B.B.Z.). Sie umfasst rund 1’200 grossformatige Glasdiapositive (8.5 x 10 cm), die aus den 1930er-Jahren stammen und zum Teil handkoloriert sind. Die Aufnahmen bieten einen faszinierenden Querschnitt durch die Arbeitswelt der Zwischenkriegszeit und zeigen Menschen bei der Ausführung verschiedener Berufe, Ansichten der Kunstgewerbeausstellung 1929, aber auch Instruktionen zur Handhabung von Werkzeugen für Linkshänder oder Objekte, die an den Lehrlingswettbewerben zwischen 1924 und 1936 präsentiert wurden. Wie die Materialität dieser fotografischen Objekte und die Präsenz einer Serie aus dem „Verlag Dr. Franz Stoedtner“ sowie einer aus der Technisch-Wissenschaftlichen Lehrmittelzentrale (TWL) suggerieren, setzte die B.B.Z. diese Sammlung in ihren Lehrveranstaltungen als Dokumentationsmaterial mit pädagogischer Zielsetzung ein.</p>"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "SGV Homepage for SGV_02",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "SGV Homepage for SGV_02",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300435443",
+                  "type": "Type",
+                  "_label": "Type of Work"
+                }
+              ]
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "SGV Homepage for SGV_02"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://archiv.sgv-sstp.ch/collection/SGV_02/",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "IIIF Collection for  SGV_02",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF Collection for  SGV_02",
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "IIIF Collection for  SGV_02"
+            }
+          ],
+          "format": "application/ld+json",
+          "access_point": [
+            {
+              "id": "https://iiif.participatory-archives.ch/collections/12.json",
+              "type": "DigitalObject"
+            }
+          ],
+          "conforms_to": [
+            {
+              "id": "http://iiif.io/api/presentation/3/context.json",
+              "type": "InformationObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

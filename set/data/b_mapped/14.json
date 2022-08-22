@@ -1,0 +1,45 @@
+{
+  "_label": "SGV_13",
+  "description": "<p>Der Basler Berufsfotograf <a class=\"salsah-link\" href=\"IRI:509443:IRI\">Rolf Werner</a> (1927\u20132014) und seine Ehefrau und Mitarbeiterin <a class=\"salsah-link\" href=\"IRI:2474599:IRI\">Margrith Werner</a> (*1940) \u00fcbergaben 2014 etwa 20\u2019000 Farbdias und Negative ihres fotografischen Archivs der SGV. F\u00fcr zahlreiche private und staatliche Institutionen und Betriebe erstellte Rolf Werner zwischen 1974 und 2003 Tonbildschauen und fotografische Projekte, die Image- und Schulungszwecken dienten. Auftraggeber waren unter anderem die PTT, die Suva, die IWB, die RUAG und diverse Privatfirmen. Die Erfassung des Bildmaterials wurde gemeinsam mit Margrith Werner im SGV-Archiv durchgef\u00fchrt.</p>",
+  "id": "https://linkedart.participatory-archives.ch/set/14",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "SGV_13"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "14"
+      }
+    ],
+    "sgv-signature": [
+      {
+        "type": {
+          "_label": "SGV Signature",
+          "id": "http://vocab.getty.edu/aat/300312355"
+        },
+        "value": "SGV_13"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "homepage": {
+        "_label": "SGV Homepage for SGV_13",
+        "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_13/",
+        "type": "http://vocab.getty.edu/aat/300264578"
+      },
+      "iiif": {
+        "_label": "IIIF Collection for  SGV_13",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/14.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

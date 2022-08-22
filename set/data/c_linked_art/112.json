@@ -1,0 +1,109 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://vocab.getty.edu/aat/300025976",
+  "type": "Set",
+  "_label": "PIA Nearby: Luzern",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025976",
+      "type": "Type",
+      "_label": "Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Owner-Assigned Title",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404621",
+          "type": "Type",
+          "_label": "PIA ID",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "112"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.participatory-archives.ch/LinguisticObject/4",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "https://linkedart.participatory-archives.ch/Type/8",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "https://linkedart.participatory-archives.ch/Type/9",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "content": "An einem heissen Tag im Juli in Luzern unterwegs gewesen und plus/minus einige Szenen re-fotografiert! \r\nWar noch jemand in Luzern kürzlich? Feel free to add to the Call :) \r\nhttps://pia.dhlab.unibas.ch/calls/23"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "IIIF Collection for  PIA Nearby: Luzern",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF Collection for  PIA Nearby: Luzern",
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "IIIF Collection for  PIA Nearby: Luzern"
+            }
+          ],
+          "format": "application/ld+json",
+          "access_point": [
+            {
+              "id": "https://iiif.participatory-archives.ch/collections/112.json",
+              "type": "DigitalObject"
+            }
+          ],
+          "conforms_to": [
+            {
+              "id": "http://iiif.io/api/presentation/3/context.json",
+              "type": "InformationObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

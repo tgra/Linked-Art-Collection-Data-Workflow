@@ -1,0 +1,45 @@
+{
+  "_label": "SGV_04",
+  "description": "<p>Anl\u00e4sslich der f\u00fcr das Jahr 1934 geplanten Internationalen Volkskunstausstellung in Bern begann die SGV eine rege Sammelt\u00e4tigkeit. Anhand eines detaillierten, \u00fcber 1\u2019600 Fragen umfassenden Fragebogens versuchte sie in der sogenannten \u201eEnqu\u00eate I\u201c einen ersten \u00dcberblick \u00fcber eine \u201eschweizerische Volkskunde\u201c zu schaffen. Die Sammlung besteht aus rein schriftlichen Zettelkatalogen sowie aus rund 5\u2019000 Fotografien, die zum Fragebogen eingesandt und zwischen 1925 und 1973 angefertigt wurden. Darunter befinden sich auch zwei kostbare Ambrotypien aus den 1850er-Jahren, die ein Frauen- bzw. M\u00e4nnerportr\u00e4t zeigen und 1946 in die SGV-Sammlung integriert wurden.</p>",
+  "id": "https://linkedart.participatory-archives.ch/set/7",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "SGV_04"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "7"
+      }
+    ],
+    "sgv-signature": [
+      {
+        "type": {
+          "_label": "SGV Signature",
+          "id": "http://vocab.getty.edu/aat/300312355"
+        },
+        "value": "SGV_04"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "homepage": {
+        "_label": "SGV Homepage for SGV_04",
+        "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_04/",
+        "type": "http://vocab.getty.edu/aat/300264578"
+      },
+      "iiif": {
+        "_label": "IIIF Collection for  SGV_04",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/7.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

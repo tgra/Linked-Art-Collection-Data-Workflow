@@ -2,9 +2,7 @@ local sipi_uri = 'https://sipi.participatory-archives.ch/';
 local iiif_base_uri = 'https://iiif.participatory-archives.ch/';
 local la_base_uri = 'https://linkedart.participatory-archives.ch/';
 local aat = 'http://vocab.getty.edu/aat/';
-local salsah_uri = "https://archiv.sgv-sstp.ch/resource/";
-
-
+local salsah_uri = "https://archiv.sgv-sstp.ch/";
 // title and id
 local object_title = std.extVar('title');
 local object_id = std.extVar('id');
@@ -37,9 +35,10 @@ local id_sgv = std.extVar('signature');
 local salsah_id = std.extVar("salsah_id");
 
 // shows
+local label_shows = 'Visual Content of Negative of ' + (if object_title != '' then object_title else object_id);
 
-local shows_label = 'Visual Content of ' +  (if object_title != '' then object_title else object_id);
-
+// digitally shows
+local label_digitally_shows = 'Visual Content of Digital Positive of ' + (if object_title != '' then object_title else object_id);
 
 
 // image uri and iiif
@@ -50,6 +49,7 @@ local iiif_label = 'IIIF Manifest for PIA ID ' + object_id + (if object_title !=
 local iiif_uri = iiif_base_uri + object_id + '/manifest.json';
 local iiif_image_api = sipi_uri + base_path + '/' + id_sgv + '.jp2/info.json';
 
+
 // image dimensions not avaialable at the moment
 
 local width = '';
@@ -59,38 +59,10 @@ local height = '';
 local collection_label = std.extVar('base_path');
 local collection_id = std.extVar('collection_id');
 
-/*
 
-local object_title        = std.extVar('title');
-local object_id           = std.extVar('id');
+//=================================
 
-
-
-local homepage_label      =  'SGV Homepage for PIA ID ' + object_id + (if object_title != '' then ' - ' + object_title else '');
-
-local production_date_start = std.extVar('date_start');
-local production_date_end   = (if std.extVar('date_end') != "" then std.extVar('date_end') else std.extVar('date_start')) ;
-local production_date_display = std.extVar('date_display');
-
-local id_place            = std.extVar('place_id');
-local id_geonames         = std.extVar('geonames_id');
-local label_place         = std.extVar('place_label');
-
-local id_local            = std.extVar('oldnr');
-local id_sgv              = std.extVar('signature');
-
-local shows_label = 'Visual Content of ' +  (if object_title != '' then object_title else object_id);
-
-
-local base_path           = std.extVar('base_path');
-local uri_image_fullres   = "https://sipi.participatory-archives.ch/" + base_path + "/" + id_sgv + '.jp2/full/max/0/default.jpg';
-
-local iiif_label          = 'IIIF Manifest for PIA ID ' + object_id + (if object_title != '' then ' - ' + object_title else '');
-local iiif_uri            = 'https://iiif.participatory-archives.ch/' + object_id + '/manifest.json';
-local iiif_image_api      = "https://sipi.participatory-archives.ch/" + base_path + "/" + id_sgv + '.jp2/info.json';
-
-*/
-
+// template
 
 {
   id: object_id,
@@ -110,12 +82,12 @@ local iiif_image_api      = "https://sipi.participatory-archives.ch/" + base_pat
         },
       ],
     }],
-  
+
   subject_of: [
     {
       type: aat + '300264578',
       _label: homepage_label,
-      access_point_id: '',
+      access_point_id: salsah_uri + 'resource/' + salsah_id,
     },
     {
       type: 'iiif',
@@ -130,22 +102,43 @@ local iiif_image_api      = "https://sipi.participatory-archives.ch/" + base_pat
     type_label: 'Photo Archives',
   },
 
-  [if production_date_start != "" then 'produced_by' else null]: {
-        begin: production_date_start,
-        end: production_date_end,
-        display_title: production_date_display,
-        location: [{
-          id: id_place,
-          geonames_id: id_geonames,
-          _label: label_place,
-        }],
-      },
- 
-  shows: {
-    _label: shows_label,
+  created_by: {
+    _label: 'Digitisation of Photograph',
+    used: {
+      _label: negative_label,
+
+      [if width != '' then 'width' else null]: width,
+      [if height != '' then 'height' else null]: height,
+
+      [if production_date_start != '' then 'produced_by_event' else null]:
+        {
+          begin: production_date_start,
+          end: production_date_end,
+          display_title: production_date_display,
+
+          [if id_place != '' then 'location' else null]:
+            [{
+              id: id_place,
+              geonames_id: id_geonames,
+              _label: label_place,
+            }],
+
+          [if production_person_id != '' then 'person' else null]:
+            [{
+              id: production_person_id,
+              _label: production_person_label,
+            }],
+
+        },
+      [if label_shows != '' then 'shows' else null]:
+        {
+          _label: label_shows,
+        },
+    },
   },
-  
-   identified_by: {
+
+  identified_by: {
+
     [if object_title != '' then 'name' else null]: [{
       _label: object_title,
       type: {
@@ -185,21 +178,19 @@ local iiif_image_api      = "https://sipi.participatory-archives.ch/" + base_pat
 
   },
 
-  representation: [{
-     
-    digital_surrogate : {
-        id: uri_image_fullres,
-      _label: 'Digital Surrogate of ' + object_id + ' - ' + object_title,
+
+  [if uri_image_fullres != '' then 'access_point' else null]:
+    {
+      id: uri_image_fullres,
+      _label: 'Image in full resolution',
     },
-    iiif_image_api:{
-      id: iiif_image_api
+
+  [if iiif_image_api != '' then 'iiif_image_api' else null]: iiif_image_api,
+
+  [if label_digitally_shows != '' then 'digitally_shows' else null]:
+    {
+      _label: label_digitally_shows,
+      //type_id: '',
+      // type_label: '',
     },
-  }
-  ],
-  
 }
-
-
-
-    
-  

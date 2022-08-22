@@ -9,6 +9,9 @@ currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
 parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir) 
 
+import globalvars
+globalvars.init()
+
 import settings
 settings.init()
 
@@ -30,9 +33,7 @@ c_linked_art = settings.myVars["c_linked_art"]
 
 factory.default_lang = settings.myVars["default_lang"]
 factory.base_url = settings.myVars["base_url"]
-types = settings.myVars["types"]
-
-
+types = globalvars.globalVars["types"]
 
 files = []
 for (dirpath, dirnames, filenames) in walk(b_mapped):
@@ -48,8 +49,8 @@ for file in files:
     print(filename)
     with open(b_mapped + '/' + file) as json_file:
         data = json.load(json_file)
-        digital_object = patterns.digital_object_pattern(data, types)
-        la = factory.toString(digital_object, compact=False)
+        set = patterns.set_pattern(data, types)
+        la = factory.toString(set, compact=False)
 
         # write linked art to file
         f = open(c_linked_art + "/" + filename, "w")

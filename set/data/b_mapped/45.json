@@ -1,0 +1,30 @@
+{
+  "_label": "Neue Blicke, Neues Sehen",
+  "id": "https://linkedart.participatory-archives.ch/set/45",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Neue Blicke, Neues Sehen"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "45"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Neue Blicke, Neues Sehen",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/45.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

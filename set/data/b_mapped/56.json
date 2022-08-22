@@ -1,0 +1,30 @@
+{
+  "_label": "Fotopraxis Alltag&Familie",
+  "id": "https://linkedart.participatory-archives.ch/set/56",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Fotopraxis Alltag&Familie"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "56"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Fotopraxis Alltag&Familie",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/56.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

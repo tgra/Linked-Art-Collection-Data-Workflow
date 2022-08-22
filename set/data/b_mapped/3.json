@@ -1,0 +1,45 @@
+{
+  "_label": "SGV_01",
+  "description": "<p>Im Rahmen einer von der SGV initiierten und finanzierten Dokumentationsreihe wurden zwischen 1942 und 1989 unter der Leitung von\u00a0<a class=\"salsah-link\" href=\"IRI:336008:IRI\">Alfred B\u00fchler</a>,\u00a0<a class=\"salsah-link\" href=\"IRI:335978:IRI\">Paul Hugger</a>\u00a0und\u00a0<a class=\"salsah-link\" href=\"IRI:336002:IRI\">Hans-Ulrich Schlumpf</a>\u00a0rund 80 monografische Filme sowie 3'700 Fotografien produziert. Ziel dieses Vorhabens war, die schweizerischen l\u00e4ndlich-handwerklichen Arbeitsvorg\u00e4nge vor ihrem \u201eAussterben\u201c visuell festzuhalten. Diese Sammlung umfasst die Filme und\u00a0Fotografien, die parallel zu den Dreharbeiten an 47 Filmen entstanden sind. Sie bietet einen einzigartigen Einblick in die verschiedensten l\u00e4ndlichen und st\u00e4dtischen Handwerksgattungen und in die dazugeh\u00f6rigen Abl\u00e4ufe sowie auch in die Arbeitswelt der Deutschschweiz, der Romandie und des Veltlins.</p>",
+  "id": "https://linkedart.participatory-archives.ch/set/3",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "SGV_01"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "3"
+      }
+    ],
+    "sgv-signature": [
+      {
+        "type": {
+          "_label": "SGV Signature",
+          "id": "http://vocab.getty.edu/aat/300312355"
+        },
+        "value": "SGV_01"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "homepage": {
+        "_label": "SGV Homepage for SGV_01",
+        "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_01/",
+        "type": "http://vocab.getty.edu/aat/300264578"
+      },
+      "iiif": {
+        "_label": "IIIF Collection for  SGV_01",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/3.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

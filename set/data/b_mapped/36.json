@@ -1,0 +1,30 @@
+{
+  "_label": "Velos",
+  "id": "https://linkedart.participatory-archives.ch/set/36",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Velos"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "36"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Velos",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/36.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

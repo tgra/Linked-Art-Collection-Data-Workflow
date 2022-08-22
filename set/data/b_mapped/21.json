@@ -1,0 +1,30 @@
+{
+  "_label": "Test Collection f\u00fcr Diskussion",
+  "id": "https://linkedart.participatory-archives.ch/set/21",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Test Collection f\u00fcr Diskussion"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "21"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Test Collection f\u00fcr Diskussion",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/21.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

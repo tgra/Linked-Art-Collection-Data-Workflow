@@ -1,0 +1,30 @@
+{
+  "_label": "Alpfest im Unterengadin, 1. Juni 1940",
+  "id": "https://linkedart.participatory-archives.ch/set/47",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Alpfest im Unterengadin, 1. Juni 1940"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "47"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Alpfest im Unterengadin, 1. Juni 1940",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/47.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

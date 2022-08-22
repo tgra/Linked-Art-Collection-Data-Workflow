@@ -1,0 +1,31 @@
+{
+  "_label": "\u00c4hnliche Bilder",
+  "description": "Beinahe identische Fotografien",
+  "id": "https://linkedart.participatory-archives.ch/set/98",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "\u00c4hnliche Bilder"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "98"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  \u00c4hnliche Bilder",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/98.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

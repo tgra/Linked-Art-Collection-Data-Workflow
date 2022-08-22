@@ -1,0 +1,164 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://vocab.getty.edu/aat/300025976",
+  "type": "Set",
+  "_label": "SGV_05",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025976",
+      "type": "Type",
+      "_label": "Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Owner-Assigned Title",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404621",
+          "type": "Type",
+          "_label": "PIA ID",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "8"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "SGV Signature",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "SGV_05"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.participatory-archives.ch/LinguisticObject/22",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "https://linkedart.participatory-archives.ch/Type/44",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "https://linkedart.participatory-archives.ch/Type/45",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "content": "<p>Der „Atlas der Schweizerischen Volkskunde“ (ASV) entstand im Anschluss an die <a class=\"salsah-link\" href=\"IRI:344302:IRI\">„Enquête I“ (SGV_04)</a>. Der Erhebungsbogen wurde von den beiden Volkskundlern Paul Geiger und Richard Weiss entworfen und generierte über 100’000 Antwortzettel zur schweizerischen Volkskultur der 1930er- und 40er-Jahre. Nebst umfangreichen schriftlichen Materialien dokumentieren rund 1’500 fotografische Abzüge und über 600 Negative der Jahre 1912 bis 1947 den Alltag in der Schweiz auf eindrückliche Weise. Dies just in der Zeit, als sich der Alltag durch die Industrialisierung, Urbanisierung und den Beginn der modernen Wohlstands- und Konsumgesellschaft vollständig wandelte. Die Bearbeitung dieser fotografischen Objekte konnte aus finanziellen Gründen noch nicht realisiert werden.</p>"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "SGV Homepage for SGV_05",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "SGV Homepage for SGV_05",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300435443",
+                  "type": "Type",
+                  "_label": "Type of Work"
+                }
+              ]
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "SGV Homepage for SGV_05"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://archiv.sgv-sstp.ch/collection/SGV_05/",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "IIIF Collection for  SGV_05",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF Collection for  SGV_05",
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "IIIF Collection for  SGV_05"
+            }
+          ],
+          "format": "application/ld+json",
+          "access_point": [
+            {
+              "id": "https://iiif.participatory-archives.ch/collections/8.json",
+              "type": "DigitalObject"
+            }
+          ],
+          "conforms_to": [
+            {
+              "id": "http://iiif.io/api/presentation/3/context.json",
+              "type": "InformationObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

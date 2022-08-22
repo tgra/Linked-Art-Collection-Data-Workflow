@@ -1,0 +1,30 @@
+{
+  "_label": "Bildst\u00f6rung",
+  "id": "https://linkedart.participatory-archives.ch/set/57",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Bildst\u00f6rung"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "57"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Bildst\u00f6rung",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/57.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

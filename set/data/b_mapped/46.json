@@ -1,0 +1,30 @@
+{
+  "_label": "Adrian's Japan Reise",
+  "id": "https://linkedart.participatory-archives.ch/set/46",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Adrian's Japan Reise"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "46"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Adrian's Japan Reise",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/46.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

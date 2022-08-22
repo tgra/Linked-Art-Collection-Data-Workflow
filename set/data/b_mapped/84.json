@@ -1,0 +1,30 @@
+{
+  "_label": "dance",
+  "id": "https://linkedart.participatory-archives.ch/set/84",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "dance"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "84"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  dance",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/84.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

@@ -1,0 +1,30 @@
+{
+  "_label": "Workshop Brunner",
+  "id": "https://linkedart.participatory-archives.ch/set/28",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Workshop Brunner"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "28"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Workshop Brunner",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/28.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

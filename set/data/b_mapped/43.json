@@ -1,0 +1,30 @@
+{
+  "_label": "Im Avers, in den obersten Alpend\u00f6rfern, 24. Februar 1940",
+  "id": "https://linkedart.participatory-archives.ch/set/43",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Im Avers, in den obersten Alpend\u00f6rfern, 24. Februar 1940"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "43"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Im Avers, in den obersten Alpend\u00f6rfern, 24. Februar 1940",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/43.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

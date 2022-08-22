@@ -6,11 +6,6 @@ import requests
 import sys
 import traceback
 
-# allow python from parent directory to be included
-currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-parentdir = os.path.dirname(currentdir)
-sys.path.insert(0, parentdir) 
-
 # import setting variables in settings.py
 import settings
 settings.init()
@@ -42,7 +37,7 @@ result          = response.json()
 total_pages     = result["meta"]["page"]["lastPage"]
 
 # now query to return data
-query           = api_uri + "?include=collections,date,place&page[size]=" + str(page_size)
+query           = api_uri + "?page[size]=" + str(page_size)
 
 # iterate through paged records
 for page in range(1, total_pages + 1):

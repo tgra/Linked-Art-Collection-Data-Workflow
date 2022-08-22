@@ -1,0 +1,45 @@
+{
+  "_label": "SGV_19",
+  "description": "<p>Der Atelierfotograf <a class=\"salsah-link\" href=\"IRI:2544228:IRI\">Kaspar Metzener</a> (1864\u20131938) fertigte in und um Meiringen vielf\u00e4ltige Einzel- und Gruppenportr\u00e4ts sowie Aufnahmen von Bauernh\u00e4usern, Bekleidungen und anderen Szenen an. Der bis August 2017 im Staatsarchiv Zug als Teil des SGV-Bauernhausforschungsprojekts aufbewahrte Bestand umfasst ca. 2'900 Glasplattennegative und ca. 800 auf A4-Papierb\u00f6gen aufgeklebte Silbergelatineabz\u00fcge aus den Jahren 1900 bis 1920.</p>",
+  "id": "https://linkedart.participatory-archives.ch/set/19",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "SGV_19"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "19"
+      }
+    ],
+    "sgv-signature": [
+      {
+        "type": {
+          "_label": "SGV Signature",
+          "id": "http://vocab.getty.edu/aat/300312355"
+        },
+        "value": "SGV_19"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "homepage": {
+        "_label": "SGV Homepage for SGV_19",
+        "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_19/",
+        "type": "http://vocab.getty.edu/aat/300264578"
+      },
+      "iiif": {
+        "_label": "IIIF Collection for  SGV_19",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/19.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

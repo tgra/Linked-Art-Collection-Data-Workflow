@@ -1,0 +1,31 @@
+{
+  "_label": "PIA Nearby: Luzern",
+  "description": "An einem heissen Tag im Juli in Luzern unterwegs gewesen und plus/minus einige Szenen re-fotografiert! \r\nWar noch jemand in Luzern k\u00fcrzlich? Feel free to add to the Call :) \r\nhttps://pia.dhlab.unibas.ch/calls/23",
+  "id": "https://linkedart.participatory-archives.ch/set/112",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "PIA Nearby: Luzern"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "112"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  PIA Nearby: Luzern",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/112.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

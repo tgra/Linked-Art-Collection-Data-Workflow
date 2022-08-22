@@ -1,0 +1,164 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://vocab.getty.edu/aat/300025976",
+  "type": "Set",
+  "_label": "SGV_15",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025976",
+      "type": "Type",
+      "_label": "Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Owner-Assigned Title",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404621",
+          "type": "Type",
+          "_label": "PIA ID",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "17"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "SGV Signature",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "SGV_15"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.participatory-archives.ch/LinguisticObject/11",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "https://linkedart.participatory-archives.ch/Type/22",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "https://linkedart.participatory-archives.ch/Type/23",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "content": "<p>Die Sammlung \"Trachtenbilder\" von <a class=\"salsah-link\" href=\"IRI:2461242:IRI\">Julie Heierli</a> (San Francisco 1859 – Schwarzwald 1938) wurde mittels Feldforschungen und Archivarbeiten wissenschaftlich erschlossen und gilt bis heute als die umfassendste und fundierteste Fotosammlung über schweizerische Trachten. Sie kam 1952 ungeordnet als Nachlass ins Archiv der SGV und wurde bis 1965 über ein Register erschlossen. Sie besteht aus rund 3'000 Trachtenbildern (Studiofotografien, Amateurbilder), die zwischen 1855 und 1938 entstanden sind. 2’030 davon sind Papierabzüge, die auf Karton aufgezogen sind. Sie zeigen Frauen, Männer und Kinder in ihren Alltags- und Sonntagstrachten und bei Volksfesten und anderen Anlässen. Die geografische Strukturierung der Sammlung Heierli suggeriert, dass die Bedeutung des Bestandes v.a. schweizweit einzuordnen ist, und dass sie gleichzeitig auch für vergleichende Studien zum Thema Trachten mit anderen europäischen Ländern ein fruchtbares Terrain darstellt. Da Trachten ein Zeichen der Identität und Zugehörigkeit sind, können sie aber auch jenseits der nationalen oder kulturellen Grenzen, in denen sie entstanden sind, sinnstiftend sein. Die Untersuchung von Trachten und Trachtenbildern im Kontext der Auswanderung in alle Welt bietet den Zugang zu interessanten Aspekten der ethnischen Zugehörigkeit, der Schaffung eines neuen ethnischen Bewusstseins oder der Inszenierung von Heimat. In dieser Hinsicht kann die Sammlung Heierli als einzigartige, wertvolle kulturhistorische Quelle betrachtet werden.</p>"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "SGV Homepage for SGV_15",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "SGV Homepage for SGV_15",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300435443",
+                  "type": "Type",
+                  "_label": "Type of Work"
+                }
+              ]
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "SGV Homepage for SGV_15"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://archiv.sgv-sstp.ch/collection/SGV_15/",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "IIIF Collection for  SGV_15",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF Collection for  SGV_15",
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "IIIF Collection for  SGV_15"
+            }
+          ],
+          "format": "application/ld+json",
+          "access_point": [
+            {
+              "id": "https://iiif.participatory-archives.ch/collections/17.json",
+              "type": "DigitalObject"
+            }
+          ],
+          "conforms_to": [
+            {
+              "id": "http://iiif.io/api/presentation/3/context.json",
+              "type": "InformationObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

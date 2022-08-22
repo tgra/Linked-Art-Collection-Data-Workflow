@@ -1,0 +1,30 @@
+{
+  "_label": "Frauen 1955",
+  "id": "https://linkedart.participatory-archives.ch/set/70",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Frauen 1955"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "70"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Frauen 1955",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/70.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

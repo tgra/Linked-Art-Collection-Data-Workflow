@@ -1,0 +1,30 @@
+{
+  "_label": "Wedding",
+  "id": "https://linkedart.participatory-archives.ch/set/67",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Wedding"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "67"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Wedding",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/67.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

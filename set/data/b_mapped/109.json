@@ -1,0 +1,30 @@
+{
+  "_label": "Burgrain",
+  "id": "https://linkedart.participatory-archives.ch/set/109",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Burgrain"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "109"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Burgrain",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/109.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

@@ -1,0 +1,30 @@
+{
+  "_label": "Peter Jans, Luzern",
+  "id": "https://linkedart.participatory-archives.ch/set/34",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Peter Jans, Luzern"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "34"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Peter Jans, Luzern",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/34.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

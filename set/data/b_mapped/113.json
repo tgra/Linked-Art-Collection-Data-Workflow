@@ -1,0 +1,30 @@
+{
+  "_label": "Ei Chlapf nachem andere",
+  "id": "https://linkedart.participatory-archives.ch/set/113",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Ei Chlapf nachem andere"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "113"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Ei Chlapf nachem andere",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/113.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

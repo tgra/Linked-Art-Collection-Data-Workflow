@@ -1,0 +1,30 @@
+{
+  "_label": "Fr\u00fcher - Heute Reality und Mobile Check",
+  "id": "https://linkedart.participatory-archives.ch/set/52",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Fr\u00fcher - Heute Reality und Mobile Check"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "52"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Fr\u00fcher - Heute Reality und Mobile Check",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/52.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

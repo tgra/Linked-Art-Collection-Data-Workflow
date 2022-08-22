@@ -1,0 +1,30 @@
+{
+  "_label": "manipuliert, verkehrt, mehrfachbelichtet, besch\u00e4digt",
+  "id": "https://linkedart.participatory-archives.ch/set/49",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "manipuliert, verkehrt, mehrfachbelichtet, besch\u00e4digt"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "49"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  manipuliert, verkehrt, mehrfachbelichtet, besch\u00e4digt",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/49.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

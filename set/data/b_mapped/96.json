@@ -1,0 +1,30 @@
+{
+  "_label": "Die gr\u00fcnen Ferien",
+  "id": "https://linkedart.participatory-archives.ch/set/96",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Die gr\u00fcnen Ferien"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "96"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Die gr\u00fcnen Ferien",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/96.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

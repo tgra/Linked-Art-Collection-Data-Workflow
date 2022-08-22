@@ -1,0 +1,30 @@
+{
+  "_label": "Fotografierte Fotograf_in",
+  "id": "https://linkedart.participatory-archives.ch/set/115",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Fotografierte Fotograf_in"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "115"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Fotografierte Fotograf_in",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/115.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

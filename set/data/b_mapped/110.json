@@ -1,0 +1,30 @@
+{
+  "_label": "life in pictures: Walter Kreis",
+  "id": "https://linkedart.participatory-archives.ch/set/110",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "life in pictures: Walter Kreis"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "110"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  life in pictures: Walter Kreis",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/110.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

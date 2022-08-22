@@ -12,6 +12,14 @@ currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
 parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir) 
 
+# allow python from parent directory to be included
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0, parentdir) 
+
+import globalvars
+globalvars.init()
+
 import settings
 settings.init()
 
@@ -21,7 +29,7 @@ settings.init()
 # read in config
 a_collection    = settings.myVars["a_collection"]
 b_mapped        = settings.myVars["b_mapped"]
-template        = Path(settings.myVars["humanmadeobject_template"]).read_text() # jsonnet template for intermediate JSON data file
+template        = Path(settings.myVars["template"]).read_text() # jsonnet template for intermediate JSON data file
 
 
 # ======================================

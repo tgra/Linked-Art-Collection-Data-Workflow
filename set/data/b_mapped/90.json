@@ -1,0 +1,30 @@
+{
+  "_label": "summer",
+  "id": "https://linkedart.participatory-archives.ch/set/90",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "summer"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "90"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  summer",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/90.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

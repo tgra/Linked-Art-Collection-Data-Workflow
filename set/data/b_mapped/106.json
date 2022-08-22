@@ -1,0 +1,30 @@
+{
+  "_label": "Hotties from the Archive",
+  "id": "https://linkedart.participatory-archives.ch/set/106",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Hotties from the Archive"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "106"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Hotties from the Archive",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/106.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

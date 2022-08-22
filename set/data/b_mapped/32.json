@@ -1,0 +1,30 @@
+{
+  "_label": "ni",
+  "id": "https://linkedart.participatory-archives.ch/set/32",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "ni"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "32"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  ni",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/32.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

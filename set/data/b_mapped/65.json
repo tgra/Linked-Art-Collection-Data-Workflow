@@ -1,0 +1,30 @@
+{
+  "_label": "Mein Collection Name",
+  "id": "https://linkedart.participatory-archives.ch/set/65",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Mein Collection Name"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "65"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Mein Collection Name",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/65.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

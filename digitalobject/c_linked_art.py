@@ -9,6 +9,9 @@ currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
 parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir) 
 
+import globalvars
+globalvars.init()
+
 import settings
 settings.init()
 
@@ -30,7 +33,9 @@ c_linked_art = settings.myVars["c_linked_art"]
 
 factory.default_lang = settings.myVars["default_lang"]
 factory.base_url = settings.myVars["base_url"]
-types = settings.myVars["types"]
+types = globalvars.globalVars["types"]
+
+print(types)
 
 
 

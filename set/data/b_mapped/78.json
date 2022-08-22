@@ -1,0 +1,30 @@
+{
+  "_label": "Commons: Weiden - Alpwirtschaft",
+  "id": "https://linkedart.participatory-archives.ch/set/78",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Commons: Weiden - Alpwirtschaft"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "78"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Commons: Weiden - Alpwirtschaft",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/78.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

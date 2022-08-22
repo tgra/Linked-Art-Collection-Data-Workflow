@@ -1,0 +1,30 @@
+{
+  "_label": "Fl\u00fcchtlinge",
+  "id": "https://linkedart.participatory-archives.ch/set/63",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Fl\u00fcchtlinge"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "63"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Fl\u00fcchtlinge",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/63.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

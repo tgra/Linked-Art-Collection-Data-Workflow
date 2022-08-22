@@ -1,0 +1,30 @@
+{
+  "_label": "die obligatorische Katzensammlung",
+  "id": "https://linkedart.participatory-archives.ch/set/30",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "die obligatorische Katzensammlung"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "30"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  die obligatorische Katzensammlung",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/30.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

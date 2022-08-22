@@ -1,0 +1,30 @@
+{
+  "_label": "Alterit\u00e4t inszenieren",
+  "id": "https://linkedart.participatory-archives.ch/set/101",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "Alterit\u00e4t inszenieren"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "101"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Alterit\u00e4t inszenieren",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/101.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

@@ -22,7 +22,7 @@ settings.init()
 # read in config
 a_collection    = settings.myVars["a_collection"]
 b_mapped        = settings.myVars["b_mapped"]
-template        = Path(settings.myVars["digitalobject_template"]).read_text() # jsonnet template for intermediate JSON data file
+template        = Path(settings.myVars["template"]).read_text() # jsonnet template for intermediate JSON data file
 
 
 # ======================================

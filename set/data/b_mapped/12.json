@@ -1,0 +1,45 @@
+{
+  "_label": "SGV_02",
+  "description": "<p>Seit dem 14. Oktober 1980 bewahrt das SGV-Fotoarchiv die ehemalige Sammlung des Amts f\u00fcr Berufsberatung der Stadt Z\u00fcrich (B.B.Z.). Sie umfasst rund 1\u2019200 grossformatige Glasdiapositive (8.5 x 10 cm), die aus den 1930er-Jahren stammen und zum Teil handkoloriert sind. Die Aufnahmen bieten einen faszinierenden Querschnitt durch die Arbeitswelt der Zwischenkriegszeit und zeigen Menschen bei der Ausf\u00fchrung verschiedener Berufe, Ansichten der Kunstgewerbeausstellung 1929, aber auch Instruktionen zur Handhabung von Werkzeugen f\u00fcr Linksh\u00e4nder oder Objekte, die an den Lehrlingswettbewerben zwischen 1924 und 1936 pr\u00e4sentiert wurden. Wie die Materialit\u00e4t dieser fotografischen Objekte und die Pr\u00e4senz einer Serie aus dem \u201eVerlag Dr. Franz Stoedtner\u201c sowie einer aus der Technisch-Wissenschaftlichen Lehrmittelzentrale (TWL) suggerieren, setzte die B.B.Z. diese Sammlung in ihren Lehrveranstaltungen als Dokumentationsmaterial mit p\u00e4dagogischer Zielsetzung ein.</p>",
+  "id": "https://linkedart.participatory-archives.ch/set/12",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "SGV_02"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "12"
+      }
+    ],
+    "sgv-signature": [
+      {
+        "type": {
+          "_label": "SGV Signature",
+          "id": "http://vocab.getty.edu/aat/300312355"
+        },
+        "value": "SGV_02"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "homepage": {
+        "_label": "SGV Homepage for SGV_02",
+        "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_02/",
+        "type": "http://vocab.getty.edu/aat/300264578"
+      },
+      "iiif": {
+        "_label": "IIIF Collection for  SGV_02",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/12.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

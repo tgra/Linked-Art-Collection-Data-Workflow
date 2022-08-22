@@ -1,0 +1,164 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://vocab.getty.edu/aat/300025976",
+  "type": "Set",
+  "_label": "SGV_10",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025976",
+      "type": "Type",
+      "_label": "Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Owner-Assigned Title",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404621",
+          "type": "Type",
+          "_label": "PIA ID",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "4"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "SGV Signature",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "SGV_10"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.participatory-archives.ch/LinguisticObject/17",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "https://linkedart.participatory-archives.ch/Type/34",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "https://linkedart.participatory-archives.ch/Type/35",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "content": "<p>Diese Sammlung ermöglicht einen Streifzug durch mehr als 100 Jahre Familien- und Fotografiegeschichte. Die wohlhabende Drucker- und Ärztefamilie Kreis zog 1876 nach Basel und dokumentierte ihr privates und berufliches Leben über drei Generationen fotografisch: beginnend mit <a class=\"salsah-link\" href=\"IRI:492859:IRI\">Emilie</a> und <a class=\"salsah-link\" href=\"IRI:375013:IRI\">Hermann Kreis-Martz</a>, über deren Kinder <a class=\"salsah-link\" href=\"IRI:492865:IRI\">Hermann</a>, <a class=\"salsah-link\" href=\"IRI:499810:IRI\">Carl</a>, <a class=\"salsah-link\" href=\"IRI:492888:IRI\">Oscar</a>, <a class=\"salsah-link\" href=\"IRI:492873:IRI\">Mathilde</a> und <a class=\"salsah-link\" href=\"IRI:492877:IRI\">Erwin Kreis</a> bis zu den Kindern von <a class=\"salsah-link\" href=\"IRI:492890:IRI\">Paula</a> und <a class=\"salsah-link\" href=\"IRI:492888:IRI\">Oscar Kreis-Füglistaller</a> <a class=\"salsah-link\" href=\"IRI:579355:IRI\">Elsbeth</a>, <a class=\"salsah-link\" href=\"IRI:493662:IRI\">Jeannette</a> und <a class=\"salsah-link\" href=\"IRI:493083:IRI\">Walter Kreis</a>. Im Familiennachlass, Teile dessen die SGV im Oktober 1991 nach dem Tod von Walter Kreis käuflich erwarb, finden sich rund 16’000 Aufnahmen der 1860er- bis in die 1970er-Jahre. Diese fotografischen Objekte – darunter auch prächtige Lederalben, Crystoleum-Fotografien und Ferrotypien – weisen einen hohen Grad an fotografischem Können auf und wurden sorgsam aufbewahrt. Ein Teil der Porträts auf den Visiten- und Kabinettkarten wurde von namhaften Basler Fotografen in ihren Studios aufgenommen (R. Spreng, H. Eidenbenz, Höflinger, C. Ruf, W. Dierks, A. Dériaz etc.). Der thematische Bogen spannt sich von der ärztlichen Tätigkeit an einem Basler Spital zu den Familienzusammenkünften im Haus oder Garten, den militärischen Aufnahmen bis hin zu den Reiseerinnerungen, die an diversen Kur- und Ferienorten in der Schweiz und im Ausland entstanden sind.</p>"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "SGV Homepage for SGV_10",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "SGV Homepage for SGV_10",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300435443",
+                  "type": "Type",
+                  "_label": "Type of Work"
+                }
+              ]
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "SGV Homepage for SGV_10"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://archiv.sgv-sstp.ch/collection/SGV_10/",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "IIIF Collection for  SGV_10",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF Collection for  SGV_10",
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "IIIF Collection for  SGV_10"
+            }
+          ],
+          "format": "application/ld+json",
+          "access_point": [
+            {
+              "id": "https://iiif.participatory-archives.ch/collections/4.json",
+              "type": "DigitalObject"
+            }
+          ],
+          "conforms_to": [
+            {
+              "id": "http://iiif.io/api/presentation/3/context.json",
+              "type": "InformationObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

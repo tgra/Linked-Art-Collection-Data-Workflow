@@ -1,0 +1,45 @@
+{
+  "_label": "SGV_07",
+  "description": "<p>Im Auftrag der SGV legte die Basler Kunsthistorikerin <a class=\"salsah-link\" href=\"IRI:343441:IRI\">Margarete Pfister-Burkhalter</a> (1903\u20131999) zwischen 1942 und 1968 eine fotografische und zeichnerische Dokumentation \u00fcber Geb\u00e4ckmodel, die damals in privatem (B\u00e4ckereien, Konditoreien, Sammlungen) und \u00f6ffentlichem Besitz (Museen) waren, an. Nach Abschluss des Projektes f\u00fchrte Frau Pfister-Burkhalter die Dokumentationsarbeit privat weiter und \u00fcbergab sie im September 1990 der SGV. Diese Sammlung enth\u00e4lt rund 2'300 Negative und 3'700 Positive \u2013 davon viele Originalabz\u00fcge \u2013 und pr\u00e4sentiert einen in seiner Art einzigartigen und akribisch gef\u00fchrten Geb\u00e4ckmodelkatalog, der nach Kantonen geordnet ist und durch separate Verzeichnisse f\u00fcr Motive und Modelschnitzer begleitet wird. Der durch die fotografierten Geb\u00e4ckmodel abgedeckte thematische Bogen spannt sich von der Repr\u00e4sentation von Wappen, Berufen, Allegorien, geometrischen Ornamenten, Tieren, Pflanzen, Trachten und adligen Motive (16.\u201317. Jh.), biblischer Szenen bis hin zu Inszenierungen lustiger Alltagssituationen.</p>",
+  "id": "https://linkedart.participatory-archives.ch/set/5",
+  "identified_by": {
+    "name": [
+      {
+        "_label": "SGV_07"
+      }
+    ],
+    "pia-id": [
+      {
+        "type": {
+          "_label": "PIA ID",
+          "id": "http://vocab.getty.edu/aat/300404621"
+        },
+        "value": "5"
+      }
+    ],
+    "sgv-signature": [
+      {
+        "type": {
+          "_label": "SGV Signature",
+          "id": "http://vocab.getty.edu/aat/300312355"
+        },
+        "value": "SGV_07"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "homepage": {
+        "_label": "SGV Homepage for SGV_07",
+        "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_07/",
+        "type": "http://vocab.getty.edu/aat/300264578"
+      },
+      "iiif": {
+        "_label": "IIIF Collection for  SGV_07",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/5.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type": "http://vocab.getty.edu/aat/300025976"
+}

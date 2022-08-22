@@ -22,7 +22,7 @@ settings.init()
 # read in config
 a_collection    = settings.myVars["a_collection"]
 b_mapped        = settings.myVars["b_mapped"]
-template        = Path(settings.myVars["digitalobject_template"]).read_text() # jsonnet template for intermediate JSON data file
+template        = Path(settings.myVars["template"]).read_text() # jsonnet template for intermediate JSON data file
 
 
 # ======================================
@@ -43,7 +43,7 @@ arguments:
 
 '''
 
-def map_collection_data(data,template,dates,places,collections):
+def map_collection_data(data,template):
 
 # ext_vars dictionary holds vars from the collection data record
 # In jsonnet it's not possible to test for the existence of an external variables dynamically, 
@@ -52,58 +52,12 @@ def map_collection_data(data,template,dates,places,collections):
 
     ext_vars = {
         "id"            : data["id"],
-        "title"         : data["attributes"]["title"],
-        "base_path"     : data["attributes"]["base_path"],
+        "label"         : data["attributes"]["label"],
         "signature"     : data["attributes"]["signature"],
-        "oldnr"         : data["attributes"]["oldnr"],
         "salsah_id"     : data["attributes"]["salsah_id"],
-
-        "date_start"    : "",
-        "date_end"      : "",
-        "date_display"  : "",
-        "place_id"      : "",
-        "geonames_id"   : "",
-        "place_label"   : "",
-
-        "collection_id": "",
-        "collection_label"  : ""
+        "description"     : data["attributes"]["description"]
         }
 
-    # add collections
-    try:
-        collection_id = data["relationships"]["collections"]["data"][0]["id"]
-        
-        for collection in collections:
-            if  collection["id"] == collection_id:
-                ext_vars["collection_id"] = collection_id
-                ext_vars["collection_label"] =   collection["attributes"]["label"]
-    except:
-        pass
-
-    # add dates
-    try:
-        dates_id = data["relationships"]["date"]["data"]["id"]
-
-        for date in dates:
-            if  date["id"] == dates_id:
-                ext_vars["date_start"] = date["attributes"]["date"]
-                ext_vars["date_end"] =  date["attributes"]["end_date"]
-                ext_vars["date_display"] = date["attributes"]["date_string"]
-    except:
-        pass
-
-    # add place
-    try:
-        place_id = data["relationships"]["place"]["data"]["id"]
-
-        for place in places:
-            if  place["id"] == place_id:
-                ext_vars["place_id"] = place["id"]
-                ext_vars["geonames_id"] = "https://geonames.org/" + place["attributes"]["geonames_id"]
-                ext_vars["place_label"] =  place["attributes"]["label"]
-                
-    except:
-        pass
     
     # iterate through ext_vars - if any values == None, replace with empty string
     for k , val in ext_vars.items():
@@ -119,10 +73,7 @@ def map_collection_data(data,template,dates,places,collections):
 
 ## ===============================================
 
-
-# iterate over files in collection_data dir
-
-
+# iterate over files in a_collection data dir
 
 files = []
 for (dirpath, dirnames, filenames) in walk(a_collection):
@@ -140,30 +91,16 @@ for file in files:
         data = json.load(json_file)
             
         # create lists for additional image, date and place data identified in record
-        data_images = []
-        data_dates  = []
-        data_places = []
         data_collections = []
-
-        # iterate over included data and append  date and place data to relevant lists
-        for record in data["included"]:
-            if record["type"] == "dates":
-                data_dates.append(record)
-            elif record["type"] == "places":
-                data_places.append(record) 
-            elif record["type"] == "collections":
-                data_collections.append(record)            
-
-            
+        
         # iterate over data and get only digital images, identified by SGV_10 base_path value, and append to data_images list
         for record in data["data"]:
-            if record["type"] == "images" and record["attributes"]["base_path"] == "SGV_10":
-                data_images.append(record)
+            if record["type"] == "collections":
+                data_collections.append(record)
             
-
-        # iterate over digital images data and map to intermediate JSON data format using jsonnet template
-        for record in data_images:
-            mapped_collection_data = map_collection_data(record,template, data_dates, data_places, data_collections)
+        # iterate over collections data and map to intermediate JSON data format using jsonnet template
+        for record in data_collections:
+            mapped_collection_data = map_collection_data(record,template)
 
             # write intermediate json data format to file
             f = open(b_mapped + "/"+ str(record["id"]) + ".json" , "w")
@@ -172,4 +109,4 @@ for file in files:
             print('.', end='', flush=True)
         
     # comment/remove following line if you want to iterate over all collection data files in a_collection
-    break
+    #break
