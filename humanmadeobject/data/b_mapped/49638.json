@@ -1,0 +1,81 @@
+{
+  "_label": "[Gotthardbahn: Aufr\u00e4umarbeiten nach der Lawine in der Leventina]",
+  "current_owner": {
+    "_label": "SGV Fotoarchiv",
+    "id": "https://linkedart.participatory-archives.ch/group/42",
+    "type_id": 300343368
+  },
+  "id": "49638",
+  "identified_by": {
+    "creator-assigned": {
+      "type_id": 300417447,
+      "value": "QB 7"
+    },
+    "name": {
+      "_label": "[Gotthardbahn: Aufr\u00e4umarbeiten nach der Lawine in der Leventina]",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "49638"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_12N_37607"
+    }
+  },
+  "member_of": [
+    {
+      "_label": "SGV_12",
+      "classified_as": [
+        {
+          "type_id": 300025976
+        }
+      ],
+      "id": "https://linkedart.participatory-archives.ch/set/13",
+      "type": "Set"
+    }
+  ],
+  "produced_by": {
+    "begin": "1951-02-18",
+    "display_title": "GREGORIAN:CE:1951-02-18:CE:1951-02-20",
+    "end": "1951-02-20",
+    "location": [
+      {
+        "_label": "Leventina District",
+        "geonames_id": "https://geonames.org/6458903",
+        "id": "377"
+      }
+    ]
+  },
+  "representation": [
+    {
+      "digital_surrogate": {
+        "_label": "Digital Surrogate of 49638 - [Gotthardbahn: Aufr\u00e4umarbeiten nach der Lawine in der Leventina]",
+        "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_37607.jp2/full/max/0/default.jpg"
+      },
+      "iiif_image_api": {
+        "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_37607.jp2/info.json"
+      }
+    }
+  ],
+  "shows": {
+    "_label": "Visual Content of [Gotthardbahn: Aufr\u00e4umarbeiten nach der Lawine in der Leventina]"
+  },
+  "subject_of": [
+    {
+      "_label": "SGV Homepage for PIA ID 49638 - [Gotthardbahn: Aufr\u00e4umarbeiten nach der Lawine in der Leventina]",
+      "access_point_id": "",
+      "type_id": 300264578
+    },
+    {
+      "_label": "IIIF Manifest for PIA ID 49638 - [Gotthardbahn: Aufr\u00e4umarbeiten nach der Lawine in der Leventina]",
+      "access_point_id": "https://iiif.participatory-archives.ch/49638/manifest.json",
+      "type": "iiif"
+    }
+  ],
+  "type_id": 300215302
+}

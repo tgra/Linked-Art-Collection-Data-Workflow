@@ -3,60 +3,36 @@
   "current_owner": {
     "_label": "SGV Fotoarchiv",
     "id": "https://linkedart.participatory-archives.ch/group/42",
-    "type_id": "http://vocab.getty.edu/aat/300343368",
-    "type_label": "Photo Archives"
+    "type_id": 300343368
   },
   "id": "49531",
   "identified_by": {
-    "creator-assigned": [
-      {
-        "type": {
-          "_label": "Creator-Assigned Number",
-          "id": "http://vocab.getty.edu/aat/300417447"
-        },
-        "value": "PZ 100"
-      }
-    ],
-    "name": [
-      {
-        "_label": "[Lawine]",
-        "language": {
-          "_label": "German",
-          "id": "http://vocab.getty.edu/aat/300388344"
-        },
-        "type": {
-          "_label": "Owner-Assigned Title",
-          "id": "http://vocab.getty.edu/aat/300404670"
-        }
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "49531"
-      }
-    ],
-    "sgv-signature": [
-      {
-        "type": {
-          "_label": "SGV Signature",
-          "id": "http://vocab.getty.edu/aat/300312355"
-        },
-        "value": "SGV_12N_37500"
-      }
-    ]
+    "creator-assigned": {
+      "type_id": 300417447,
+      "value": "PZ 100"
+    },
+    "name": {
+      "_label": "[Lawine]",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "49531"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_12N_37500"
+    }
   },
   "member_of": [
     {
       "_label": "SGV_12",
       "classified_as": [
         {
-          "_label": "Collection",
-          "id": "http://vocab.getty.edu/aat/300025976",
-          "type": "Type"
+          "type_id": 300025976
         }
       ],
       "id": "https://linkedart.participatory-archives.ch/set/13",
@@ -81,7 +57,7 @@
     {
       "_label": "SGV Homepage for PIA ID 49531 - [Lawine]",
       "access_point_id": "",
-      "type": "http://vocab.getty.edu/aat/300264578"
+      "type_id": 300264578
     },
     {
       "_label": "IIIF Manifest for PIA ID 49531 - [Lawine]",
@@ -89,5 +65,5 @@
       "type": "iiif"
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300215302"
+  "type_id": 300215302
 }
