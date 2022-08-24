@@ -6,7 +6,7 @@
       "lastPage": 120,
       "perPage": 500,
       "to": 42500,
-      "total": 59855
+      "total": 59856
     }
   },
   "jsonapi": {
@@ -223,6 +223,10 @@
             {
               "type": "collections",
               "id": "13"
+            },
+            {
+              "type": "collections",
+              "id": "107"
             }
           ]
         },
@@ -46606,6 +46610,86 @@
       },
       "links": {
         "self": "https://data.participatory-archives.ch/api/v1/places/5"
+      }
+    },
+    {
+      "type": "collections",
+      "id": "107",
+      "attributes": {
+        "salsah_id": null,
+        "label": "potential meme",
+        "signature": null,
+        "description": "Die Zirbenzapfen-Saison hat offiziell begonnen und dauert nur mehr wenige Tage!\r\nKreieren Sie Ihren eigenen Zirbenschnaps mit GRATIS Rezeptheft.\r\n1kg BIO ZIRBENZAPFEN per Kilo, FRISCH gepfl\u00fcckt / SOFORT versendet!\r\nGRATIS Lieferung innerhalb \u00d6sterreich und Deutschland ab 25 EUR Bestellwert\r\n\r\nHier frische ZIRBENZAPFEN bestellen >>>>> www.zirbenprodukte.at/zirben-zapfen-2022\r\n\r\nNUR MEHR BEGRENZT VERF\u00dcGBAR!!\r\n\r\nHotels / Restaurants / Brennereien k\u00f6nnen mit unserem ZIRBENZAPFEN ANGEBOT nun endlich ihren eigenen Zirbenschnaps produzieren. Probieren Sie!\r\n\r\nwww.zirbenprodukte.at",
+        "default_image": null,
+        "embedded_video": null,
+        "origin": "pia",
+        "createdAt": "2022-07-06T09:29:35.000000Z",
+        "updatedAt": "2022-07-13T10:55:15.000000Z"
+      },
+      "relationships": {
+        "date": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/107/date",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/107/relationships/date"
+          }
+        },
+        "images": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/107/images",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/107/relationships/images"
+          }
+        },
+        "comments": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/107/comments",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/107/relationships/comments"
+          }
+        },
+        "agents": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/107/agents",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/107/relationships/agents"
+          }
+        },
+        "literatures": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/107/literatures",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/107/relationships/literatures"
+          }
+        },
+        "alt-labels": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/107/alt-labels",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/107/relationships/alt-labels"
+          }
+        },
+        "documents": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/107/documents",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/107/relationships/documents"
+          }
+        },
+        "keywords": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/107/keywords",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/107/relationships/keywords"
+          }
+        },
+        "maps": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/107/maps",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/107/relationships/maps"
+          }
+        },
+        "notes": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/107/notes",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/107/relationships/notes"
+          }
+        }
+      },
+      "links": {
+        "self": "https://data.participatory-archives.ch/api/v1/collections/107"
       }
     },
     {

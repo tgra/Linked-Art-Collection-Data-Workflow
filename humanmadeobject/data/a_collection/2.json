@@ -6,7 +6,7 @@
       "lastPage": 120,
       "perPage": 500,
       "to": 1000,
-      "total": 59855
+      "total": 59856
     }
   },
   "jsonapi": {
@@ -35616,9 +35616,9 @@
       "id": "895",
       "attributes": {
         "salsah_id": "474403",
-        "oldnr": "",
+        "oldnr": null,
         "signature": "SGV_10P_00895",
-        "title": "",
+        "title": null,
         "original_title": null,
         "base_path": "SGV_10",
         "salsah_date": null,
@@ -35634,6 +35634,14 @@
             {
               "type": "collections",
               "id": "4"
+            },
+            {
+              "type": "collections",
+              "id": "114"
+            },
+            {
+              "type": "collections",
+              "id": "107"
             }
           ]
         },
@@ -35723,6 +35731,10 @@
             {
               "type": "collections",
               "id": "4"
+            },
+            {
+              "type": "collections",
+              "id": "114"
             }
           ]
         },
@@ -35905,6 +35917,10 @@
             {
               "type": "collections",
               "id": "4"
+            },
+            {
+              "type": "collections",
+              "id": "114"
             }
           ]
         },
@@ -35994,6 +36010,10 @@
             {
               "type": "collections",
               "id": "4"
+            },
+            {
+              "type": "collections",
+              "id": "114"
             }
           ]
         },
@@ -36083,6 +36103,10 @@
             {
               "type": "collections",
               "id": "4"
+            },
+            {
+              "type": "collections",
+              "id": "114"
             }
           ]
         },
@@ -38561,9 +38585,9 @@
       "id": "928",
       "attributes": {
         "salsah_id": "474436",
-        "oldnr": "",
+        "oldnr": null,
         "signature": "SGV_10P_00928",
-        "title": "",
+        "title": null,
         "original_title": null,
         "base_path": "SGV_10",
         "salsah_date": null,
@@ -38579,6 +38603,10 @@
             {
               "type": "collections",
               "id": "4"
+            },
+            {
+              "type": "collections",
+              "id": "107"
             }
           ]
         },
@@ -38650,9 +38678,9 @@
       "id": "929",
       "attributes": {
         "salsah_id": "474437",
-        "oldnr": "",
+        "oldnr": null,
         "signature": "SGV_10P_00929",
-        "title": "",
+        "title": null,
         "original_title": null,
         "base_path": "SGV_10",
         "salsah_date": null,
@@ -38668,6 +38696,10 @@
             {
               "type": "collections",
               "id": "4"
+            },
+            {
+              "type": "collections",
+              "id": "107"
             }
           ]
         },
@@ -38917,9 +38949,9 @@
       "id": "932",
       "attributes": {
         "salsah_id": "474440",
-        "oldnr": "",
+        "oldnr": null,
         "signature": "SGV_10P_00932",
-        "title": "",
+        "title": null,
         "original_title": null,
         "base_path": "SGV_10",
         "salsah_date": null,
@@ -38935,6 +38967,10 @@
             {
               "type": "collections",
               "id": "4"
+            },
+            {
+              "type": "collections",
+              "id": "107"
             }
           ]
         },
@@ -49564,6 +49600,86 @@
       },
       "links": {
         "self": "https://data.participatory-archives.ch/api/v1/places/168"
+      }
+    },
+    {
+      "type": "collections",
+      "id": "114",
+      "attributes": {
+        "salsah_id": null,
+        "label": "Karl gets drunk, Oscar not amused...",
+        "signature": null,
+        "description": "no words...",
+        "default_image": null,
+        "embedded_video": null,
+        "origin": "pia",
+        "createdAt": "2022-08-19T07:47:46.000000Z",
+        "updatedAt": "2022-08-19T07:50:17.000000Z"
+      },
+      "relationships": {
+        "date": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/114/date",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/114/relationships/date"
+          }
+        },
+        "images": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/114/images",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/114/relationships/images"
+          }
+        },
+        "comments": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/114/comments",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/114/relationships/comments"
+          }
+        },
+        "agents": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/114/agents",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/114/relationships/agents"
+          }
+        },
+        "literatures": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/114/literatures",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/114/relationships/literatures"
+          }
+        },
+        "alt-labels": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/114/alt-labels",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/114/relationships/alt-labels"
+          }
+        },
+        "documents": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/114/documents",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/114/relationships/documents"
+          }
+        },
+        "keywords": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/114/keywords",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/114/relationships/keywords"
+          }
+        },
+        "maps": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/114/maps",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/114/relationships/maps"
+          }
+        },
+        "notes": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/114/notes",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/114/relationships/notes"
+          }
+        }
+      },
+      "links": {
+        "self": "https://data.participatory-archives.ch/api/v1/collections/114"
       }
     },
     {
