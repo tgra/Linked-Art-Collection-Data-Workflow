@@ -2,20 +2,17 @@
   "_label": "Uetliberg",
   "id": "https://linkedart.participatory-archives.ch/set/40",
   "identified_by": {
-    "name": [
-      {
-        "_label": "Uetliberg"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "40"
-      }
-    ]
+    "name": {
+      "_label": "Uetliberg",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "40"
+    }
   },
   "subject_of": [
     {
@@ -26,5 +23,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

@@ -3,20 +3,17 @@
   "description": "Ladet eure besten Sticker-Funde hoch! (Gerne mit Ort & Datum)",
   "id": "https://linkedart.participatory-archives.ch/set/60",
   "identified_by": {
-    "name": [
-      {
-        "_label": "Stickers"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "60"
-      }
-    ]
+    "name": {
+      "_label": "Stickers",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "60"
+    }
   },
   "subject_of": [
     {
@@ -27,5 +24,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

@@ -2,20 +2,17 @@
   "_label": "Commons: W\u00e4lder",
   "id": "https://linkedart.participatory-archives.ch/set/79",
   "identified_by": {
-    "name": [
-      {
-        "_label": "Commons: W\u00e4lder"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "79"
-      }
-    ]
+    "name": {
+      "_label": "Commons: W\u00e4lder",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "79"
+    }
   },
   "subject_of": [
     {
@@ -26,5 +23,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

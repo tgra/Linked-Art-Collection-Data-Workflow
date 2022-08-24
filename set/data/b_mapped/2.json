@@ -3,36 +3,28 @@
   "description": "<p>Die Sammlung Olga Frey-Schmidlin ist seit 1997 im Besitz der SGV und besteht aus einem handgeschriebenem Reisetagebuch und sechs Alben. Das Tagebuch enth\u00e4lt Fotografien und Postkarten aus der Zeit um 1900 und beschreibt eine einj\u00e4hrige Reise aus dem kleinst\u00e4dtischen Aarau ins imperiale Berlin und an die Ostsee. In der Reihe \u201e<a href=\"http://www.volkskunde.ch/sgv/publikationen/buecher/katalog/volkskundliches-taschenbuch.html\">Das Volkskundliche Taschenbuch</a>\u201c ist 1997 ein Band mit den Aufzeichnungen von <a class=\"salsah-link\" href=\"IRI:629824:IRI\">Olga Frey-Schmidlin</a> erschienen (<a href=\"http://www.limmatverlag.ch/programm/titel/474-grossstadtluft-und-meereslust.html\">Grossstadtluft und Meeresluft: Eine Reise nach Berlin und an die Ostsee 1900</a>). Die sechs Alben zeigen die Familie von <a class=\"salsah-link\" href=\"IRI:629935:IRI\">Rosa Hunziker-Frey</a>, der Tochter von Olga und <a class=\"salsah-link\" href=\"IRI:629927:IRI\">Othmar Frey-Schmidlin</a>. Die 919 darin enthaltenen Fotografien stammen aus der Zeit zwischen 1906 und 1940 und wurden teils in Paterson (USA), teils in der Schweiz aufgenommen. H\u00e4ufige Motive sind Portr\u00e4ts von Familienmitgliedern, Wohnh\u00e4user und Innenr\u00e4ume, Ferien- und Ausflugsbilder sowie Aufnahmen von den \u00dcberfahrten auf dem Schiff. Um 1920 kehrte die Familie zur\u00fcck in die Schweiz und wohnte ab dann auf dem Schloss Liebegg im Kanton Aargau.</p>",
   "id": "https://linkedart.participatory-archives.ch/set/2",
   "identified_by": {
-    "name": [
-      {
-        "_label": "SGV_11"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "2"
-      }
-    ],
-    "sgv-signature": [
-      {
-        "type": {
-          "_label": "SGV Signature",
-          "id": "http://vocab.getty.edu/aat/300312355"
-        },
-        "value": "SGV_11"
-      }
-    ]
+    "name": {
+      "_label": "SGV_11",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "2"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_11"
+    }
   },
   "subject_of": [
     {
       "homepage": {
         "_label": "SGV Homepage for SGV_11",
         "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_11/",
-        "type": "http://vocab.getty.edu/aat/300264578"
+        "type_id": 300264578
       },
       "iiif": {
         "_label": "IIIF Collection for  SGV_11",
@@ -41,5 +33,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

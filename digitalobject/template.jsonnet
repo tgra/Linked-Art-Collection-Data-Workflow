@@ -67,7 +67,7 @@ local collection_id = std.extVar('collection_id');
 {
   id: object_id,
   _label: object_title,
-  type: aat + '300215302',
+  type_id: 300215302,
 
   [if collection_id != '' then 'member_of' else null]:
     [{
@@ -76,16 +76,14 @@ local collection_id = std.extVar('collection_id');
       _label: collection_label,
       classified_as: [
         {
-          id: aat + '300025976',
-          type: 'Type',
-          _label: 'Collection',
+          type_id: 300025976
         },
       ],
     }],
 
   subject_of: [
     {
-      type: aat + '300264578',
+      type_id: 300264578,
       _label: homepage_label,
       access_point_id: salsah_uri + 'resource/' + salsah_id,
     },
@@ -98,7 +96,7 @@ local collection_id = std.extVar('collection_id');
   current_owner: {
     id: la_base_uri + 'group/42',
     _label: 'SGV Fotoarchiv',
-    type_id: aat + '300343368',
+    type_id: 300343368,
     type_label: 'Photo Archives',
   },
 
@@ -138,44 +136,26 @@ local collection_id = std.extVar('collection_id');
   },
 
   identified_by: {
-
-    [if object_title != '' then 'name' else null]: [{
+    [if object_title != '' then 'name' else null]: {
       _label: object_title,
-      type: {
-        id: aat + '300404670',
-        _label: 'Owner-Assigned Title',
-      },
+      type_id: 300404670,
       language: {
-        id: aat + '300388344',
-        _label: 'German',
+        type_id: 300388344
       },
-    }],
-
-    
-    [if id_oldnr != '' then 'creator-assigned' else null]: [{
+    },
+    [if id_oldnr != '' then 'creator-assigned' else null]: {
       value: id_oldnr,
-      type: {
-        id: aat + '300417447',
-        _label: 'Creator-Assigned Number',
-      },
-    }],
-    [if id_sgv != '' then 'sgv-signature' else null]: [{
+      type_id: 300417447,
+    },
+    [if id_sgv != '' then 'sgv-signature' else null]: {
       value: id_sgv,
-      type: {
-        id: aat + '300312355',
-        _label: 'SGV Signature',
-      },
-    }],
-
+      type_id: 300312355
+    },
     [if object_id != '' then 'pia-id' else null]:
-      [{
+      {
         value: object_id,
-        type: {
-          id: aat + '300404621',
-          _label: 'PIA ID',
-        },
-      }],
-
+        type_id: 300404621
+      },
   },
 
 
@@ -189,8 +169,6 @@ local collection_id = std.extVar('collection_id');
 
   [if label_digitally_shows != '' then 'digitally_shows' else null]:
     {
-      _label: label_digitally_shows,
-      //type_id: '',
-      // type_label: '',
+      _label: label_digitally_shows
     },
 }

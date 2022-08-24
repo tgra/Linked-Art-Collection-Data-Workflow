@@ -3,36 +3,28 @@
   "description": "<p>Diese Sammlung umfasst rund 900 Fotografien von Senntumsmalereien aus den 1930er- bis 1950er-Jahren. Sie ist das Resultat einer von der SGV initiierten Bestandsaufnahme der Senntumsmalereien im Appenzellerland und im Toggenburg, die vom damaligen Konservator des Kunstmuseums St. Gallen, <a class=\"salsah-link\" href=\"IRI:343128:IRI\">Rudolf Hanhart</a>, geleitet und 1956/57 von Dr. Otto Frehner aus Herisau und <a class=\"salsah-link\" href=\"IRI:343169:IRI\">Albert Edelmann</a> aus Ebnat durchgef\u00fchrt wurde. Frehner und Edelmann erstellten einen Zettelkatalog, der die Malereien nach K\u00fcnstler/-innen ordnete. Ein grosser Teil der Fotografien dieser Sammlung zeigen Werke von Bartholom\u00e4us L\u00e4mmer (1809\u20131865), <a class=\"salsah-link\" href=\"IRI:487047:IRI\">Johannes M\u00fcller</a> (1806\u20131897), <a class=\"salsah-link\" href=\"IRI:487056:IRI\">Babeli Ciezendanner</a> (1831\u20131905), <a class=\"salsah-link\" href=\"IRI:487052:IRI\">Johannes Z\u00fclle</a> (1841\u20131938), <a class=\"salsah-link\" href=\"IRI:486977:IRI\">Johann Jakob Heuscher</a> (1843\u20131901) und <a class=\"salsah-link\" href=\"IRI:343462:IRI\">Franz Anton Haim</a> (1830\u20131890).</p>",
   "id": "https://linkedart.participatory-archives.ch/set/9",
   "identified_by": {
-    "name": [
-      {
-        "_label": "SGV_06"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "9"
-      }
-    ],
-    "sgv-signature": [
-      {
-        "type": {
-          "_label": "SGV Signature",
-          "id": "http://vocab.getty.edu/aat/300312355"
-        },
-        "value": "SGV_06"
-      }
-    ]
+    "name": {
+      "_label": "SGV_06",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "9"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_06"
+    }
   },
   "subject_of": [
     {
       "homepage": {
         "_label": "SGV Homepage for SGV_06",
         "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_06/",
-        "type": "http://vocab.getty.edu/aat/300264578"
+        "type_id": 300264578
       },
       "iiif": {
         "_label": "IIIF Collection for  SGV_06",
@@ -41,5 +33,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

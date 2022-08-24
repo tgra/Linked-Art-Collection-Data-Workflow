@@ -5,8 +5,8 @@
       "from": 59501,
       "lastPage": 120,
       "perPage": 500,
-      "to": 59855,
-      "total": 59855
+      "to": 59856,
+      "total": 59856
     }
   },
   "jsonapi": {
@@ -33615,6 +33615,95 @@
         "related": "https://sipi.participatory-archives.ch/upload/1658319937_lose_Fotografie_in_Schachtel_SGV_10.jp2/",
         "self": "https://data.participatory-archives.ch/api/v1/images/59856"
       }
+    },
+    {
+      "type": "images",
+      "id": "59857",
+      "attributes": {
+        "salsah_id": null,
+        "oldnr": null,
+        "signature": "1661248025_B9AC0F68-3A16-4A10-995E-C1DDFCE5704B",
+        "title": "B9AC0F68-3A16-4A10-995E-C1DDFCE5704B",
+        "original_title": null,
+        "base_path": "upload",
+        "salsah_date": null,
+        "sequence_number": null
+      },
+      "relationships": {
+        "collections": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/images/59857/collections",
+            "self": "https://data.participatory-archives.ch/api/v1/images/59857/relationships/collections"
+          },
+          "data": [
+            {
+              "type": "collections",
+              "id": "52"
+            }
+          ]
+        },
+        "keywords": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/images/59857/keywords",
+            "self": "https://data.participatory-archives.ch/api/v1/images/59857/relationships/keywords"
+          }
+        },
+        "comments": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/images/59857/comments",
+            "self": "https://data.participatory-archives.ch/api/v1/images/59857/relationships/comments"
+          }
+        },
+        "people": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/images/59857/people",
+            "self": "https://data.participatory-archives.ch/api/v1/images/59857/relationships/people"
+          }
+        },
+        "date": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/images/59857/date",
+            "self": "https://data.participatory-archives.ch/api/v1/images/59857/relationships/date"
+          },
+          "data": null
+        },
+        "place": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/images/59857/place",
+            "self": "https://data.participatory-archives.ch/api/v1/images/59857/relationships/place"
+          },
+          "data": null
+        },
+        "verso": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/images/59857/verso",
+            "self": "https://data.participatory-archives.ch/api/v1/images/59857/relationships/verso"
+          }
+        },
+        "object_types": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/images/59857/object-types",
+            "self": "https://data.participatory-archives.ch/api/v1/images/59857/relationships/object-types"
+          }
+        },
+        "model_types": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/images/59857/model-types",
+            "self": "https://data.participatory-archives.ch/api/v1/images/59857/relationships/model-types"
+          }
+        },
+        "formats": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/images/59857/formats",
+            "self": "https://data.participatory-archives.ch/api/v1/images/59857/relationships/formats"
+          }
+        }
+      },
+      "links": {
+        "manifest": "https://iiif.participatory-archives.ch/59857/manifest.json",
+        "related": "https://sipi.participatory-archives.ch/upload/1661248025_B9AC0F68-3A16-4A10-995E-C1DDFCE5704B.jp2/",
+        "self": "https://data.participatory-archives.ch/api/v1/images/59857"
+      }
     }
   ],
   "included": [
@@ -43739,6 +43828,86 @@
       },
       "links": {
         "self": "https://data.participatory-archives.ch/api/v1/places/5"
+      }
+    },
+    {
+      "type": "collections",
+      "id": "52",
+      "attributes": {
+        "salsah_id": null,
+        "label": "Fr\u00fcher - Heute Reality und Mobile Check",
+        "signature": null,
+        "description": null,
+        "default_image": null,
+        "embedded_video": null,
+        "origin": "pia",
+        "createdAt": "2022-04-04T14:59:46.000000Z",
+        "updatedAt": "2022-04-04T14:59:46.000000Z"
+      },
+      "relationships": {
+        "date": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/52/date",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/52/relationships/date"
+          }
+        },
+        "images": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/52/images",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/52/relationships/images"
+          }
+        },
+        "comments": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/52/comments",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/52/relationships/comments"
+          }
+        },
+        "agents": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/52/agents",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/52/relationships/agents"
+          }
+        },
+        "literatures": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/52/literatures",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/52/relationships/literatures"
+          }
+        },
+        "alt-labels": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/52/alt-labels",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/52/relationships/alt-labels"
+          }
+        },
+        "documents": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/52/documents",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/52/relationships/documents"
+          }
+        },
+        "keywords": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/52/keywords",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/52/relationships/keywords"
+          }
+        },
+        "maps": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/52/maps",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/52/relationships/maps"
+          }
+        },
+        "notes": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/52/notes",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/52/relationships/notes"
+          }
+        }
+      },
+      "links": {
+        "self": "https://data.participatory-archives.ch/api/v1/collections/52"
       }
     }
   ]

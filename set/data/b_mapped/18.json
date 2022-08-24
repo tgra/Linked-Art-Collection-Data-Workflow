@@ -3,36 +3,28 @@
   "description": "<p>Bei den knapp 1\u2019600 fotografischen Objekten handelt es sich um einen Familienbestand (Familien\u00a0Schelhaas, Ghirardelli-Schelhaas,\u00a0Ghirardelli-Dillier, Dillier-M\u00fcntener). Ein grosser Teil dieser Objekte ist in der Zeit um 1910 bis in die 1950er Jahre entstanden und gibt einen spannenden Einblick in die Lebensverh\u00e4ltnisse dieser durch Heiraten miteinander\u00a0verbundenen b\u00fcrgerlichen Z\u00fcrcher Familien (sechs\u00a0Fotoalben, lose Abz\u00fcge, Negative). Rund 30 Objekte stammen aus den Jahren zwischen 1870 und 1900 (Kabinettkarten, Cartes-de-visite, ein Tischfotohalter aus verziertem Metall), darunter auch Rarit\u00e4ten wie zum Beispiel ein sogenannter \u201ephoto-button\u201c aus emailliertem Metall aus dem Familienbestand Dillier-M\u00fcntener.</p>",
   "id": "https://linkedart.participatory-archives.ch/set/18",
   "identified_by": {
-    "name": [
-      {
-        "_label": "SGV_18"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "18"
-      }
-    ],
-    "sgv-signature": [
-      {
-        "type": {
-          "_label": "SGV Signature",
-          "id": "http://vocab.getty.edu/aat/300312355"
-        },
-        "value": "SGV_18"
-      }
-    ]
+    "name": {
+      "_label": "SGV_18",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "18"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_18"
+    }
   },
   "subject_of": [
     {
       "homepage": {
         "_label": "SGV Homepage for SGV_18",
         "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_18/",
-        "type": "http://vocab.getty.edu/aat/300264578"
+        "type_id": 300264578
       },
       "iiif": {
         "_label": "IIIF Collection for  SGV_18",
@@ -41,5 +33,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

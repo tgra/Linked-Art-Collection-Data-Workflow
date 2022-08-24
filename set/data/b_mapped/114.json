@@ -3,20 +3,17 @@
   "description": "no words...",
   "id": "https://linkedart.participatory-archives.ch/set/114",
   "identified_by": {
-    "name": [
-      {
-        "_label": "Karl gets drunk, Oscar not amused..."
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "114"
-      }
-    ]
+    "name": {
+      "_label": "Karl gets drunk, Oscar not amused...",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "114"
+    }
   },
   "subject_of": [
     {
@@ -27,5 +24,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

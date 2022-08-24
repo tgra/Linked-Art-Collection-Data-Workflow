@@ -33,6 +33,13 @@
             }
           ]
         }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388344",
+          "type": "Language",
+          "_label": "German"
+        }
       ]
     },
     {

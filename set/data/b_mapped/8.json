@@ -3,36 +3,28 @@
   "description": "<p>Der \u201eAtlas der Schweizerischen Volkskunde\u201c (ASV) entstand im Anschluss an die <a class=\"salsah-link\" href=\"IRI:344302:IRI\">\u201eEnqu\u00eate I\u201c (SGV_04)</a>. Der Erhebungsbogen wurde von den beiden Volkskundlern Paul Geiger und Richard Weiss entworfen und generierte \u00fcber 100\u2019000 Antwortzettel zur schweizerischen Volkskultur der 1930er- und 40er-Jahre. Nebst umfangreichen schriftlichen Materialien dokumentieren rund 1\u2019500 fotografische Abz\u00fcge und \u00fcber 600 Negative der Jahre 1912 bis 1947 den Alltag in der Schweiz auf eindr\u00fcckliche Weise. Dies just in der Zeit, als sich der Alltag durch die Industrialisierung, Urbanisierung und den Beginn der modernen Wohlstands- und Konsumgesellschaft vollst\u00e4ndig wandelte. Die Bearbeitung dieser fotografischen Objekte konnte aus finanziellen Gr\u00fcnden noch nicht realisiert werden.</p>",
   "id": "https://linkedart.participatory-archives.ch/set/8",
   "identified_by": {
-    "name": [
-      {
-        "_label": "SGV_05"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "8"
-      }
-    ],
-    "sgv-signature": [
-      {
-        "type": {
-          "_label": "SGV Signature",
-          "id": "http://vocab.getty.edu/aat/300312355"
-        },
-        "value": "SGV_05"
-      }
-    ]
+    "name": {
+      "_label": "SGV_05",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "8"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_05"
+    }
   },
   "subject_of": [
     {
       "homepage": {
         "_label": "SGV Homepage for SGV_05",
         "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_05/",
-        "type": "http://vocab.getty.edu/aat/300264578"
+        "type_id": 300264578
       },
       "iiif": {
         "_label": "IIIF Collection for  SGV_05",
@@ -41,5 +33,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

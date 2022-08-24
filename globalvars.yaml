@@ -1,0 +1,48 @@
+---
+types: 
+  300215302:
+    label: Digital Image        
+  300025976:
+    label: Collection      
+  300264578:
+    label: Web Page
+  300055647:
+    label: Width
+  300379098: 
+    label: Height       
+  300379098:
+    label: Centimetres     
+  300379098:
+    label: Display Title       
+  300128343:
+    label: Black and White Negative       
+  300435443: 
+    label: Type of Work       
+  300055647:
+    label: Width      
+  300055644: 
+    label: Height        
+  300404669: 
+    label: Display Title       
+  300164207: 
+    label: Carnival       
+  300404670: 
+    label: Owner-Assigned Title
+  300388344: 
+    label: German
+  300417447:
+    label: Creator-Assigned Number       
+  300312355:
+    label: SGV Signature     
+  300404621:
+    label: PIA ID    
+  300343368:
+    label: Photo Archives 
+
+uris:
+  sipi_uri      : https://sipi.participatory-archives.ch/
+  iiif_base_uri : https://iiif.participatory-archives.ch/
+  la_base_uri     : https://linkedart.participatory-archives.ch/
+  aat             : http://vocab.getty.edu/aat/
+  salsah_uri      : https://archiv.sgv-sstp.ch/
+...

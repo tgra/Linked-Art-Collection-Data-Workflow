@@ -2,20 +2,17 @@
   "_label": "Im Avers, in den obersten Alpend\u00f6rfern, 24. Februar 1940",
   "id": "https://linkedart.participatory-archives.ch/set/43",
   "identified_by": {
-    "name": [
-      {
-        "_label": "Im Avers, in den obersten Alpend\u00f6rfern, 24. Februar 1940"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "43"
-      }
-    ]
+    "name": {
+      "_label": "Im Avers, in den obersten Alpend\u00f6rfern, 24. Februar 1940",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "43"
+    }
   },
   "subject_of": [
     {
@@ -26,5 +23,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

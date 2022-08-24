@@ -1,0 +1,13 @@
+- - - # settings for humanmadeobject
+- settings:
+  default_lang        : en
+  base_url            : https://linkedart.participatory-archives.ch/
+  pia_api_uri         : https://data.participatory-archives.ch/api/v1/images
+  pia_api_include     : include=collections,date,place
+  page_size           : 500
+  directory           : humanmadeobject/
+  a_collection        : data/a_collection
+  b_mapped            : data/b_mapped
+  c_linked_art        : data/c_linked_art
+  template            : template.jsonnet
+...

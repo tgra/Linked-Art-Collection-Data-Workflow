@@ -3,36 +3,28 @@
   "description": "<p>Diese Sammlung erm\u00f6glicht einen Streifzug durch mehr als 100 Jahre Familien- und Fotografiegeschichte. Die wohlhabende Drucker- und \u00c4rztefamilie Kreis zog 1876 nach Basel und dokumentierte ihr privates und berufliches Leben \u00fcber drei Generationen fotografisch:\u00a0beginnend mit\u00a0<a class=\"salsah-link\" href=\"IRI:492859:IRI\">Emilie</a> und <a class=\"salsah-link\" href=\"IRI:375013:IRI\">Hermann Kreis-Martz</a>, \u00fcber deren Kinder\u00a0<a class=\"salsah-link\" href=\"IRI:492865:IRI\">Hermann</a>, <a class=\"salsah-link\" href=\"IRI:499810:IRI\">Carl</a>, <a class=\"salsah-link\" href=\"IRI:492888:IRI\">Oscar</a>, <a class=\"salsah-link\" href=\"IRI:492873:IRI\">Mathilde</a> und <a class=\"salsah-link\" href=\"IRI:492877:IRI\">Erwin Kreis</a>\u00a0bis zu den Kindern von <a class=\"salsah-link\" href=\"IRI:492890:IRI\">Paula</a> und <a class=\"salsah-link\" href=\"IRI:492888:IRI\">Oscar Kreis-F\u00fcglistaller</a>\u00a0<a class=\"salsah-link\" href=\"IRI:579355:IRI\">Elsbeth</a>, <a class=\"salsah-link\" href=\"IRI:493662:IRI\">Jeannette</a> und <a class=\"salsah-link\" href=\"IRI:493083:IRI\">Walter Kreis</a>.\u00a0Im Familiennachlass, Teile dessen die SGV im Oktober 1991 nach dem Tod von Walter Kreis k\u00e4uflich erwarb, finden sich rund 16\u2019000 Aufnahmen der 1860er- bis in die 1970er-Jahre. Diese fotografischen Objekte \u2013 darunter auch pr\u00e4chtige Lederalben, Crystoleum-Fotografien und Ferrotypien \u2013 weisen einen hohen Grad an fotografischem K\u00f6nnen auf und wurden sorgsam aufbewahrt. Ein Teil der Portr\u00e4ts auf den Visiten- und Kabinettkarten wurde von namhaften Basler Fotografen in ihren Studios aufgenommen (R. Spreng, H. Eidenbenz, H\u00f6flinger, C. Ruf, W. Dierks, A. D\u00e9riaz etc.). Der thematische Bogen spannt sich von der \u00e4rztlichen T\u00e4tigkeit an einem Basler Spital zu den Familienzusammenk\u00fcnften im Haus oder Garten, den milit\u00e4rischen Aufnahmen bis hin zu den Reiseerinnerungen, die an diversen Kur- und Ferienorten in der Schweiz und im Ausland entstanden sind.</p>",
   "id": "https://linkedart.participatory-archives.ch/set/4",
   "identified_by": {
-    "name": [
-      {
-        "_label": "SGV_10"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "4"
-      }
-    ],
-    "sgv-signature": [
-      {
-        "type": {
-          "_label": "SGV Signature",
-          "id": "http://vocab.getty.edu/aat/300312355"
-        },
-        "value": "SGV_10"
-      }
-    ]
+    "name": {
+      "_label": "SGV_10",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "4"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_10"
+    }
   },
   "subject_of": [
     {
       "homepage": {
         "_label": "SGV Homepage for SGV_10",
         "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_10/",
-        "type": "http://vocab.getty.edu/aat/300264578"
+        "type_id": 300264578
       },
       "iiif": {
         "_label": "IIIF Collection for  SGV_10",
@@ -41,5 +33,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

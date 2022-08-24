@@ -3,20 +3,17 @@
   "description": "Die Zirbenzapfen-Saison hat offiziell begonnen und dauert nur mehr wenige Tage!\r\nKreieren Sie Ihren eigenen Zirbenschnaps mit GRATIS Rezeptheft.\r\n1kg BIO ZIRBENZAPFEN per Kilo, FRISCH gepfl\u00fcckt / SOFORT versendet!\r\nGRATIS Lieferung innerhalb \u00d6sterreich und Deutschland ab 25 EUR Bestellwert\r\n\r\nHier frische ZIRBENZAPFEN bestellen >>>>> www.zirbenprodukte.at/zirben-zapfen-2022\r\n\r\nNUR MEHR BEGRENZT VERF\u00dcGBAR!!\r\n\r\nHotels / Restaurants / Brennereien k\u00f6nnen mit unserem ZIRBENZAPFEN ANGEBOT nun endlich ihren eigenen Zirbenschnaps produzieren. Probieren Sie!\r\n\r\nwww.zirbenprodukte.at",
   "id": "https://linkedart.participatory-archives.ch/set/107",
   "identified_by": {
-    "name": [
-      {
-        "_label": "potential meme"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "107"
-      }
-    ]
+    "name": {
+      "_label": "potential meme",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "107"
+    }
   },
   "subject_of": [
     {
@@ -27,5 +24,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

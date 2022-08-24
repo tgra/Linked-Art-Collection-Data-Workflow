@@ -28,7 +28,7 @@
   "current_owner": {
     "_label": "SGV Fotoarchiv",
     "id": "https://linkedart.participatory-archives.ch/group/42",
-    "type_id": "http://vocab.getty.edu/aat/300343368",
+    "type_id": 300343368,
     "type_label": "Photo Archives"
   },
   "digitally_shows": {
@@ -36,24 +36,14 @@
   },
   "id": "186",
   "identified_by": {
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "186"
-      }
-    ],
-    "sgv-signature": [
-      {
-        "type": {
-          "_label": "SGV Signature",
-          "id": "http://vocab.getty.edu/aat/300312355"
-        },
-        "value": "SGV_10P_00186"
-      }
-    ]
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "186"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_10P_00186"
+    }
   },
   "iiif_image_api": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_00186.jp2/info.json",
   "member_of": [
@@ -61,9 +51,7 @@
       "_label": "SGV_10",
       "classified_as": [
         {
-          "_label": "Collection",
-          "id": "http://vocab.getty.edu/aat/300025976",
-          "type": "Type"
+          "type_id": 300025976
         }
       ],
       "id": "https://linkedart.participatory-archives.ch/set/4",
@@ -74,7 +62,7 @@
     {
       "_label": "SGV Homepage for PIA ID 186",
       "access_point_id": "https://archiv.sgv-sstp.ch/resource/473694",
-      "type": "http://vocab.getty.edu/aat/300264578"
+      "type_id": 300264578
     },
     {
       "_label": "IIIF Manifest for PIA ID 186",
@@ -82,5 +70,5 @@
       "type": "iiif"
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300215302"
+  "type_id": 300215302
 }

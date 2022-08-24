@@ -3,36 +3,28 @@
   "description": "<p>Unter der Leitung von Ernst Baumann f\u00fchrte die SGV zwischen 1938 und 1955\u00a0eine Bestandsaufnahme aller Ex Votos (Votivgaben und Votivbilder) der Schweiz durch. Jede\u00a0Votivgabe oder Votiftafel\u00a0wurde von einem professionellen Fotografen oder gutem Amateur fotografisch dokumentiert und dessen Einzelheiten in einem Fragebogen festgehalten. Die fotografische Dokumentation umfasst rund 24'000 Objekte (Negative und Positive) und pr\u00e4sentiert ca.\u00a012'000 Ex Votos aus 818 Kirchen und Kapellen der katholischen Schweiz. Die Negative sind im Mittel- bis Grossformat und meist aus Cellulosenitrat resp. -acetat. Die Sammlung ist einzigartig in der Schweiz und f\u00fcr die Kultur- und Religionsgeschichte sowie Denkmalpflege sehr wertvoll.</p><p><span gaga={}>Rund 12'000 Ex Votos aus \u00fcber 800 Kirchen und Kapellen der katholischen Schweiz</span</p>",
   "id": "https://linkedart.participatory-archives.ch/set/15",
   "identified_by": {
-    "name": [
-      {
-        "_label": "SGV_14"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "15"
-      }
-    ],
-    "sgv-signature": [
-      {
-        "type": {
-          "_label": "SGV Signature",
-          "id": "http://vocab.getty.edu/aat/300312355"
-        },
-        "value": "SGV_14"
-      }
-    ]
+    "name": {
+      "_label": "SGV_14",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "15"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_14"
+    }
   },
   "subject_of": [
     {
       "homepage": {
         "_label": "SGV Homepage for SGV_14",
         "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_14/",
-        "type": "http://vocab.getty.edu/aat/300264578"
+        "type_id": 300264578
       },
       "iiif": {
         "_label": "IIIF Collection for  SGV_14",
@@ -41,5 +33,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

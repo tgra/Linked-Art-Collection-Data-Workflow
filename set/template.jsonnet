@@ -27,7 +27,7 @@ local description = std.extVar('description');
 {
   id: la_base_uri + 'set/' + set_id,
   _label: set_label,
-  type: aat + '300025976',
+  type_id: 300025976,
 
   
   
@@ -35,7 +35,7 @@ local description = std.extVar('description');
     [{
     [if id_sgv != '' then 'homepage' else null]: 
         {
-      type: aat + '300264578',
+      type_id: 300264578,
       _label: homepage_label,
       access_point_id: homepage_uri,
         }
@@ -48,32 +48,26 @@ local description = std.extVar('description');
     }
     }],
   
-
-   identified_by: {
-    [if set_label != '' then 'name' else null]: [{
+    identified_by: {
+    [if set_label != '' then 'name' else null]: {
       _label: set_label,
-    }],
-
-    
-    [if id_sgv != '' then 'sgv-signature' else null]: [{
-      value: id_sgv,
-      type: {
-        id: aat + '300312355',
-        _label: 'SGV Signature',
+      type_id: 300404670,
+      language: {
+        type_id: 300388344
       },
-    }],
-
+    },
+    
+    [if id_sgv != '' then 'sgv-signature' else null]: {
+      value: id_sgv,
+      type_id: 300312355,
+    },
     [if set_id != '' then 'pia-id' else null]:
-      [{
+      {
         value: set_id,
-        type: {
-          id: aat + '300404621',
-          _label: 'PIA ID',
-        },
-      }],
-
+        type_id: 300404621,
+      },
   },
-
+  
 [if description != '' then 'description' else null]:
    description
   

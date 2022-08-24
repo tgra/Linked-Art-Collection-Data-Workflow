@@ -2,20 +2,17 @@
   "_label": "Alterit\u00e4t inszenieren",
   "id": "https://linkedart.participatory-archives.ch/set/101",
   "identified_by": {
-    "name": [
-      {
-        "_label": "Alterit\u00e4t inszenieren"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "101"
-      }
-    ]
+    "name": {
+      "_label": "Alterit\u00e4t inszenieren",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "101"
+    }
   },
   "subject_of": [
     {
@@ -26,5 +23,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }

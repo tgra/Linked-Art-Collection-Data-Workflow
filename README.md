@@ -32,19 +32,22 @@ To transform collection data for digital images data, available via the PIA JSON
 
 1. extract data (and save locally)
 ```python
-cd digitalobject
-```
-```python
-python3 a_query_api.py
+python3 query_api.py --config ./digitalobject/settings.yaml 
 ```
 
 2. map data (to intermediate data template)
 ```python
-python3 b_map_data.py
+
+python3 map_data.py --objtype set --config set/settings.yaml --template set/template.jsonnet
 ```
 3. transform data (to Linked Art)
+
 ```python
-python3 c_linked_art.py
+python3 linked_art.py --objtype <objecttype> --config <config-file> 
+```
+e.g.
+```python
+python3 linked_art.py --objtype set --config set/settings.yaml
 ```
 
 # How to set up the dev environment

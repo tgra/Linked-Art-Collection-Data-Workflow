@@ -3,36 +3,28 @@
   "description": "<strong><p>Fotosammlung Gennaro Ghirardelli und Georges M\u00fcller-K\u00e4lin (SGV_17D_00001 bis\u00a0SGV_17D_00372; SGV_17N_00001 bis\u00a0SGV_17N_00840)\u00a0</p></strong><p></p><p>Der Ethnologe <a class=\"salsah-link\" href=\"IRI:2173360:IRI\">Gennaro Ghirardelli\u00a0</a>(*1944) und der Fotograf\u00a0<a class=\"salsah-link\" href=\"IRI:2174089:IRI\">Georges M\u00fcller-K\u00e4lin</a>\u00a0(*1948)\u00a0dokumentieren mit ihren zwischen 1971 und 1983 aufgenommenen 1'212 Fotografien die Umsiedlung ganzer D\u00f6rfer aufgrund der Errichtung des Euphratstaudamms in Syrien. Im Zuge des Baus des <a href=\"https://de.wikipedia.org/wiki/Tabqa-Talsperre\">Euphratstaudamms bei Tabqa/al-Thawra</a> wurde die ortsans\u00e4ssige Bev\u00f6lkerung in neu gegr\u00fcndete D\u00f6rfer in Nordostsyrien umgesiedelt. Die im Rahmen eines Forschungsprojektes entstandenen Fotografien thematisieren die Auswirkungen der Umsiedlung auf die Lebenswelt und Sozialstruktur der insgesamt etwa 25'000 betroffenen Personen. Ein Teil der Aufnahmen zeigt die D\u00f6rfer sowie die Lebens- und Wirtschaftsweise der Bev\u00f6lkerung vor der Umsiedlung. Ein zweiter Teil dokumentiert die ver\u00e4nderten Dorfstrukturen und die Architektur der neu gegr\u00fcndeten D\u00f6rfer in dem mehrheitlich von kurdischer Bev\u00f6lkerung besiedelten Nordosten des Landes. Neben dem sozialen Wandel wird die Ver\u00e4nderung landwirtschaftlicher und hauswirtschaftlicher T\u00e4tigkeiten sichtbar.<strong></strong></p><strong><p>Aleppo-IBA 1984 (SGV_17D_00373 bis\u00a0SGV_17D_00379;\u00a0SGV_17N_00841 bis SGV_17N_01248)\u00a0</p></strong><p></p><p>Bei dieser Sammlung handelt es sich um Aufnahmen, die Gennaro Ghirardelli 1983 bis 1984 in Aleppo bei den Vorbereitungen f\u00fcr die Ausstellung \u201eandernorts\u201c im Rahmen der <a href=\"https://www.open-iba.de/geschichte/1979-1987-iba-berlin/\">Internationalen Bauausstellung 1984</a> an der Hochschule der K\u00fcnste, Berlin anfertigte. Die Fotografien wurden mit einer Plaubel Makina 6x7 aufgenommen und zeigen Stadt- und Innenansichten \u00fcberwiegend aus zwei Aleppiner Altstadtvierteln: al-Jallum und al-Judaida. Dabei galt das Interesse der Erfassung von Gassenverl\u00e4ufen, Hausfassaden, Geb\u00e4uden mit ihren Innenh\u00f6fen und -r\u00e4umen sowie der Veranschaulichung des t\u00e4glichen Lebens der Einwohner in diesen traditionellen Altstadtvierteln mit ihren L\u00e4den und Werkst\u00e4tten, kleineren Quartiersmoscheen, Friedh\u00f6fen, Brunnen und \u00f6ffentlichen Einrichtungen wie Schulen, M\u00e4rkten und dergleichen. Manchen historischen Geb\u00e4uden, die, neben den bekannten Schaust\u00fccken wie die Umaiyadenmoschee und die Zitadelle, zum historischen Bestand dieser Stadtviertel z\u00e4hlten, wurde gleichfalls Aufmerksamkeit gewidmet. Zu der Sammlung geh\u00f6rt auch eine Anzahl Reproduktionen historischer Postkarten von Anfang bis in die 50er Jahre des 20. Jahrhunderts.</p>",
   "id": "https://linkedart.participatory-archives.ch/set/16",
   "identified_by": {
-    "name": [
-      {
-        "_label": "SGV_17"
-      }
-    ],
-    "pia-id": [
-      {
-        "type": {
-          "_label": "PIA ID",
-          "id": "http://vocab.getty.edu/aat/300404621"
-        },
-        "value": "16"
-      }
-    ],
-    "sgv-signature": [
-      {
-        "type": {
-          "_label": "SGV Signature",
-          "id": "http://vocab.getty.edu/aat/300312355"
-        },
-        "value": "SGV_17"
-      }
-    ]
+    "name": {
+      "_label": "SGV_17",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "16"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_17"
+    }
   },
   "subject_of": [
     {
       "homepage": {
         "_label": "SGV Homepage for SGV_17",
         "access_point_id": "https://archiv.sgv-sstp.ch/collection/SGV_17/",
-        "type": "http://vocab.getty.edu/aat/300264578"
+        "type_id": 300264578
       },
       "iiif": {
         "_label": "IIIF Collection for  SGV_17",
@@ -41,5 +33,5 @@
       }
     }
   ],
-  "type": "http://vocab.getty.edu/aat/300025976"
+  "type_id": 300025976
 }
