@@ -32,12 +32,19 @@ To transform collection data for digital images data, available via the PIA JSON
 
 1. extract data (and save locally)
 ```python
+query_api.py  --config <config-file>
+```
+e.g.
+```python
 python3 query_api.py --config ./digitalobject/settings.yaml 
 ```
 
 2. map data (to intermediate data template)
 ```python
-
+map_data.py --objtype <objecttype> --config <config-file> --template <jsonnet-template-filepath>
+```
+e.g.
+```python
 python3 map_data.py --objtype set --config set/settings.yaml --template set/template.jsonnet
 ```
 3. transform data (to Linked Art)
@@ -49,6 +56,13 @@ e.g.
 ```python
 python3 linked_art.py --objtype set --config set/settings.yaml
 ```
+
+To list the required script arguments use -h e.g.:
+```python
+python query_api.py -h
+```
+
+
 
 # How to set up the dev environment
 To run the Python scripts it's recommended that you create a virtual environment with venv, and install the dependencies listed.
