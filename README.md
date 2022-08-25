@@ -27,6 +27,15 @@ or
 https://github.com/tgra/Linked-Art-Collection-Data-Workflow/archive/refs/heads/main.zip
 
 # Example usage
+There are three main scripts to use:
+- query_api.py - queries the PIA API
+- map_data.py - maps collection data to intermediate JSON format
+- linked_art.py - transforms intermediate JSON format to Linked Art JSON-LD
+
+To list the required script arguments use <i>-h</i> e.g.:
+```python
+python query_api.py -h
+```
 
 To transform collection data for digital images data, available via the PIA JSON API, to Linked Art:
 
@@ -57,10 +66,7 @@ e.g.
 python3 linked_art.py --objtype set --config set/settings.yaml
 ```
 
-To list the required script arguments use -h e.g.:
-```python
-python query_api.py -h
-```
+
 
 
 
