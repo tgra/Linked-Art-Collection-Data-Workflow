@@ -3,8 +3,7 @@ This 'how-to' file describes how to query the PIA API using the 'query_api.py' f
 
 The query_api.py file queries the PIA JSON API using the URL provided in a config .yaml file specified in the script argument --config
 
- An example config file can be viewed at [./digitalobject/settings.yaml](example settings.yaml)
-
+ An example config file can be viewed at [example settings.yaml](./digitalobject/settings.yaml)
 
 # Files
 - query_api.py 
