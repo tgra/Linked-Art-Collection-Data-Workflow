@@ -100,13 +100,17 @@ python3 -m pip install cromulent
 ```
 
 - cromulent
-- requests
+- getopt
 - json
-- pathlib
-- os
 - jsonnet
+- os
+- pathlib
 - pyld
-  
+- requests
+- sys 
+- traceback
+- yaml
+
 
 
 # How to contribute
