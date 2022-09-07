@@ -1,11 +1,7 @@
-import inspect
 import json
-import os
-from pathlib import Path
 import requests
 import sys
 import traceback
-import getopt
 import yaml
 from yaml.loader import SafeLoader
 

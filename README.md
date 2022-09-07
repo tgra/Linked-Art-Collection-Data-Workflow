@@ -27,7 +27,7 @@ or
 https://github.com/tgra/Linked-Art-Collection-Data-Workflow/archive/refs/heads/main.zip
 
 # Example usage
-There are three main scripts to use:
+There are three main scripts:
 - query_api.py - queries the PIA API
 - map_data.py - maps collection data to intermediate JSON format
 - linked_art.py - transforms intermediate JSON format to Linked Art JSON-LD

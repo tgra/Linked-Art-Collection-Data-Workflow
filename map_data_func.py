@@ -1,14 +1,4 @@
-import inspect
 import json
-import os
-from os import walk
-from pathlib import Path
-import sys
-import traceback
-import getopt
-from xml.etree.ElementInclude import include
-import yaml
-from yaml.loader import SafeLoader
 import _jsonnet
 
 def save_file(data, dir, id):

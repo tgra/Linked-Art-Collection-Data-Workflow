@@ -1,11 +1,3 @@
-
-from multiprocessing.util import log_to_stderr
-from this import d
-import cromulent
-import pyld
-import os
-import json
-
 from cromulent.model import factory, Group, DigitalObject
 from cromulent.vocab import Type, Set, LinguisticObject, Name, InformationObject, Creation, VisualItem, Identifier, Production, HumanMadeObject, Dimension, MeasurementUnit, TimeSpan, Place, Person, Language, DigitalService
 
