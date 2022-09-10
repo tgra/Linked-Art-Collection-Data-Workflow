@@ -1,0 +1,69 @@
+{
+  "_label": "[Portr\u00e4t von Emilie Kreis-Martz]",
+  "access_point": {
+    "_label": "Image in full resolution",
+    "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_00052.jp2/full/max/0/default.jpg"
+  },
+  "created_by": {
+    "_label": "Digitisation of Photograph",
+    "used": {
+      "_label": "Negative of [Portr\u00e4t von Emilie Kreis-Martz]",
+      "shows": {
+        "_label": "Visual Content of Negative of [Portr\u00e4t von Emilie Kreis-Martz]"
+      }
+    }
+  },
+  "current_owner": {
+    "_label": "SGV Fotoarchiv",
+    "id": "https://linkedart.participatory-archives.ch/group/42",
+    "type_id": 300343368,
+    "type_label": "Photo Archives"
+  },
+  "digitally_shows": {
+    "_label": "Visual Content of Digital Positive of [Portr\u00e4t von Emilie Kreis-Martz]"
+  },
+  "id": "52",
+  "identified_by": {
+    "name": {
+      "_label": "[Portr\u00e4t von Emilie Kreis-Martz]",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "52"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_10P_00052"
+    }
+  },
+  "iiif_image_api": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_00052.jp2/info.json",
+  "member_of": [
+    {
+      "_label": "SGV_10",
+      "classified_as": [
+        {
+          "type_id": 300025976
+        }
+      ],
+      "id": "https://linkedart.participatory-archives.ch/set/4",
+      "type": "Set"
+    }
+  ],
+  "subject_of": [
+    {
+      "_label": "SGV Homepage for PIA ID 52 - [Portr\u00e4t von Emilie Kreis-Martz]",
+      "access_point_id": "https://archiv.sgv-sstp.ch/resource/473560",
+      "type_id": 300264578
+    },
+    {
+      "_label": "IIIF Manifest for PIA ID 52 - [Portr\u00e4t von Emilie Kreis-Martz]",
+      "access_point_id": "https://iiif.participatory-archives.ch/52/manifest.json",
+      "type": "iiif"
+    }
+  ],
+  "type_id": 300215302
+}

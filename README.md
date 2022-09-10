@@ -96,7 +96,7 @@ python3 -m pip install <name>
 ```
 For example: 
 ```python
-python3 -m pip install cromulent
+python3 -m pip install cromulent getopt json jsonnet os pathlib pyld requests sys  traceback yaml
 ```
 
 - cromulent
