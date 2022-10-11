@@ -1,0 +1,81 @@
+{
+  "_label": "S. Mamette",
+  "access_point": {
+    "_label": "Image in full resolution",
+    "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_03280.jp2/full/max/0/default.jpg"
+  },
+  "created_by": {
+    "_label": "Digitisation of Photograph",
+    "used": {
+      "_label": "Negative of S. Mamette",
+      "produced_by_event": {
+        "begin": "1936-01-01",
+        "display_title": "GREGORIAN:CE:1936",
+        "end": "",
+        "location": [
+          {
+            "_label": "San Mamete",
+            "geonames_id": "https://geonames.org/8435875",
+            "id": "279"
+          }
+        ]
+      },
+      "shows": {
+        "_label": "Visual Content of Negative of S. Mamette"
+      }
+    }
+  },
+  "current_owner": {
+    "_label": "SGV Fotoarchiv",
+    "id": "https://data.participatory-archives.ch/group/42",
+    "type_id": 300343368,
+    "type_label": "Photo Archives"
+  },
+  "digitally_shows": {
+    "_label": "Visual Content of Digital Positive of S. Mamette"
+  },
+  "id": "3280",
+  "identified_by": {
+    "name": {
+      "_label": "S. Mamette",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "3280"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_10P_03280"
+    }
+  },
+  "iiif_image_api": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_03280.jp2/info.json",
+  "member_of": [
+    {
+      "_label": "SGV_10",
+      "classified_as": [
+        {
+          "type_id": 300025976
+        }
+      ],
+      "id": "https://data.participatory-archives.ch/set/4",
+      "type": "Set"
+    }
+  ],
+  "subject_of": [
+    {
+      "_label": "SGV Homepage for PIA ID 3280 - S. Mamette",
+      "access_point_id": "https://archiv.sgv-sstp.ch/resource/476788",
+      "type_id": 300264578
+    },
+    {
+      "_label": "IIIF Manifest for PIA ID 3280 - S. Mamette",
+      "access_point_id": "https://iiif.participatory-archives.ch/SGV_10P_03280/manifest.json",
+      "type": "iiif"
+    }
+  ],
+  "type_id": 300215302
+}

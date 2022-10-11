@@ -20,7 +20,7 @@
   },
   "current_owner": {
     "_label": "SGV Fotoarchiv",
-    "id": "https://linkedart.participatory-archives.ch/group/42",
+    "id": "https://data.participatory-archives.ch/group/42",
     "type_id": 300343368,
     "type_label": "Photo Archives"
   },
@@ -54,7 +54,7 @@
           "type_id": 300025976
         }
       ],
-      "id": "https://linkedart.participatory-archives.ch/set/4",
+      "id": "https://data.participatory-archives.ch/set/4",
       "type": "Set"
     }
   ],
@@ -66,7 +66,7 @@
     },
     {
       "_label": "IIIF Manifest for PIA ID 144 - Weihnachten 1927",
-      "access_point_id": "https://iiif.participatory-archives.ch/144/manifest.json",
+      "access_point_id": "https://iiif.participatory-archives.ch/SGV_10P_00144/manifest.json",
       "type": "iiif"
     }
   ],

@@ -1,8 +1,8 @@
 - - - # settings for digital object
 - settings:
   default_lang        : en
-  base_url            : https://linkedart.participatory-archives.ch/
-  pia_api_uri         : https://data.participatory-archives.ch/api/v1/images
+  base_url            : https://data.participatory-archives.ch/
+  pia_api_uri         : https://json.participatory-archives.ch/api/v1/images
   pia_api_include     : include=collections,date,place
   page_size           : 500
   directory           : digitalobject/

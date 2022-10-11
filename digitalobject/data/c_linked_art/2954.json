@@ -1,0 +1,279 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://vocab.getty.edu/aat/300215302",
+  "type": "DigitalObject",
+  "_label": "Napoli Musikanten v. d. Parkers Hotel",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "Digital Image",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Owner-Assigned Title",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388344",
+          "type": "Language",
+          "_label": "German"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404621",
+          "type": "Type",
+          "_label": "PIA ID",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "2954"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "SGV Signature",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "SGV_10P_02954"
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://data.participatory-archives.ch/set/4",
+      "type": "Set",
+      "_label": "SGV_10",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300025976",
+          "type": "Type",
+          "_label": "Collection",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "SGV Homepage for PIA ID 2954 - Napoli Musikanten v. d. Parkers Hotel",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "SGV Homepage for PIA ID 2954 - Napoli Musikanten v. d. Parkers Hotel",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300435443",
+                  "type": "Type",
+                  "_label": "Type of Work"
+                }
+              ]
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "SGV Homepage for PIA ID 2954 - Napoli Musikanten v. d. Parkers Hotel"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://archiv.sgv-sstp.ch/resource/476462",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "IIIF Manifest for PIA ID 2954 - Napoli Musikanten v. d. Parkers Hotel",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF Manifest for PIA ID 2954 - Napoli Musikanten v. d. Parkers Hotel",
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "IIIF Manifest for PIA ID 2954 - Napoli Musikanten v. d. Parkers Hotel"
+            }
+          ],
+          "format": "application/ld+json",
+          "access_point": [
+            {
+              "id": "https://iiif.participatory-archives.ch/SGV_10P_02954/manifest.json",
+              "type": "DigitalObject"
+            }
+          ],
+          "conforms_to": [
+            {
+              "id": "http://iiif.io/api/presentation/3/context.json",
+              "type": "InformationObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Digitisation of Photograph",
+    "used_specific_object": [
+      {
+        "type": "HumanMadeObject",
+        "_label": "Negative of Napoli Musikanten v. d. Parkers Hotel",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300128343",
+            "type": "Type",
+            "_label": "Black and White Negative",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435443",
+                "type": "Type",
+                "_label": "Type of Work"
+              }
+            ]
+          }
+        ],
+        "shows": [
+          {
+            "type": "VisualItem",
+            "_label": "Negative of Napoli Musikanten v. d. Parkers Hotel"
+          }
+        ],
+        "produced_by": {
+          "type": "Production",
+          "timespan": {
+            "type": "TimeSpan",
+            "identified_by": [
+              {
+                "type": "Name",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300404669",
+                    "type": "Type",
+                    "_label": "Display Title",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/aat/300435443",
+                        "type": "Type",
+                        "_label": "Type of Work"
+                      }
+                    ]
+                  }
+                ],
+                "content": "GREGORIAN:CE:1933"
+              }
+            ],
+            "begin_of_the_begin": "1933-01-01"
+          },
+          "took_place_at": [
+            {
+              "id": "https://data.participatory-archives.ch/Place/244",
+              "type": "Place",
+              "_label": "Naples",
+              "identified_by": [
+                {
+                  "id": "https://data.participatory-archives.ch/Identifier/244",
+                  "type": "Identifier",
+                  "_label": "local identifier"
+                },
+                {
+                  "id": "https://geonames.org/3172394",
+                  "type": "Identifier",
+                  "_label": "geonames identifier"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "digitally_shows": [
+    {
+      "type": "VisualItem",
+      "_label": "Visual Content of Digital Positive of Napoli Musikanten v. d. Parkers Hotel"
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_02954.jp2/full/max/0/default.jpg",
+      "type": "DigitalObject",
+      "_label": "Image in full resolution"
+    }
+  ],
+  "digitally_available_via": [
+    {
+      "type": "DigitalService",
+      "_label": "IIIF Image API",
+      "format": "application/ld+json",
+      "access_point": [
+        {
+          "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_02954.jp2/info.json",
+          "type": "DigitalObject"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/image/3/context.json",
+          "type": "InformationObject"
+        }
+      ]
+    }
+  ]
+}

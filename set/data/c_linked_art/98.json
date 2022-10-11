@@ -63,16 +63,16 @@
   ],
   "referred_to_by": [
     {
-      "id": "https://linkedart.participatory-archives.ch/LinguisticObject/25",
+      "id": "https://data.participatory-archives.ch/LinguisticObject/25",
       "type": "LinguisticObject",
       "classified_as": [
         {
-          "id": "https://linkedart.participatory-archives.ch/Type/50",
+          "id": "https://data.participatory-archives.ch/Type/50",
           "type": "Type",
           "_label": "Description",
           "classified_as": [
             {
-              "id": "https://linkedart.participatory-archives.ch/Type/51",
+              "id": "https://data.participatory-archives.ch/Type/51",
               "type": "Type",
               "_label": "Brief Text"
             }

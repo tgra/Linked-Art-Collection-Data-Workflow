@@ -1,0 +1,81 @@
+{
+  "_label": "Treppenturm im Chateau [sic] de Chambord",
+  "access_point": {
+    "_label": "Image in full resolution",
+    "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_04485.jp2/full/max/0/default.jpg"
+  },
+  "created_by": {
+    "_label": "Digitisation of Photograph",
+    "used": {
+      "_label": "Negative of Treppenturm im Chateau [sic] de Chambord",
+      "produced_by_event": {
+        "begin": "1936-01-01",
+        "display_title": "GREGORIAN:CE:1936",
+        "end": "",
+        "location": [
+          {
+            "_label": "Chambord",
+            "geonames_id": "https://geonames.org/3027365",
+            "id": "333"
+          }
+        ]
+      },
+      "shows": {
+        "_label": "Visual Content of Negative of Treppenturm im Chateau [sic] de Chambord"
+      }
+    }
+  },
+  "current_owner": {
+    "_label": "SGV Fotoarchiv",
+    "id": "https://data.participatory-archives.ch/group/42",
+    "type_id": 300343368,
+    "type_label": "Photo Archives"
+  },
+  "digitally_shows": {
+    "_label": "Visual Content of Digital Positive of Treppenturm im Chateau [sic] de Chambord"
+  },
+  "id": "4485",
+  "identified_by": {
+    "name": {
+      "_label": "Treppenturm im Chateau [sic] de Chambord",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "4485"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_10P_04485"
+    }
+  },
+  "iiif_image_api": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_04485.jp2/info.json",
+  "member_of": [
+    {
+      "_label": "SGV_10",
+      "classified_as": [
+        {
+          "type_id": 300025976
+        }
+      ],
+      "id": "https://data.participatory-archives.ch/set/4",
+      "type": "Set"
+    }
+  ],
+  "subject_of": [
+    {
+      "_label": "SGV Homepage for PIA ID 4485 - Treppenturm im Chateau [sic] de Chambord",
+      "access_point_id": "https://archiv.sgv-sstp.ch/resource/477993",
+      "type_id": 300264578
+    },
+    {
+      "_label": "IIIF Manifest for PIA ID 4485 - Treppenturm im Chateau [sic] de Chambord",
+      "access_point_id": "https://iiif.participatory-archives.ch/SGV_10P_04485/manifest.json",
+      "type": "iiif"
+    }
+  ],
+  "type_id": 300215302
+}

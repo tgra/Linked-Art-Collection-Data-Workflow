@@ -1,0 +1,27 @@
+{
+  "_label": "adelboden",
+  "id": "https://data.participatory-archives.ch/set/116",
+  "identified_by": {
+    "name": {
+      "_label": "adelboden",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "116"
+    }
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  adelboden",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/116.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type_id": 300025976
+}
