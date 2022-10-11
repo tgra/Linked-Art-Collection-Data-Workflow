@@ -10052,6 +10052,10 @@
             {
               "type": "collections",
               "id": "105"
+            },
+            {
+              "type": "collections",
+              "id": "106"
             }
           ]
         },
@@ -21822,6 +21826,10 @@
             {
               "type": "collections",
               "id": "4"
+            },
+            {
+              "type": "collections",
+              "id": "105"
             }
           ]
         },
@@ -23889,6 +23897,10 @@
             {
               "type": "collections",
               "id": "4"
+            },
+            {
+              "type": "collections",
+              "id": "105"
             }
           ]
         },
@@ -24077,6 +24089,10 @@
             {
               "type": "collections",
               "id": "74"
+            },
+            {
+              "type": "collections",
+              "id": "105"
             }
           ]
         },
@@ -46690,6 +46706,86 @@
       },
       "links": {
         "self": "https://data.participatory-archives.ch/api/v1/dates/662"
+      }
+    },
+    {
+      "type": "collections",
+      "id": "106",
+      "attributes": {
+        "salsah_id": null,
+        "label": "Hotties from the Archive",
+        "signature": null,
+        "description": null,
+        "default_image": null,
+        "embedded_video": null,
+        "origin": "pia",
+        "createdAt": "2022-07-05T09:57:17.000000Z",
+        "updatedAt": "2022-07-05T09:57:17.000000Z"
+      },
+      "relationships": {
+        "date": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/106/date",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/106/relationships/date"
+          }
+        },
+        "images": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/106/images",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/106/relationships/images"
+          }
+        },
+        "comments": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/106/comments",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/106/relationships/comments"
+          }
+        },
+        "agents": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/106/agents",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/106/relationships/agents"
+          }
+        },
+        "literatures": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/106/literatures",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/106/relationships/literatures"
+          }
+        },
+        "alt-labels": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/106/alt-labels",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/106/relationships/alt-labels"
+          }
+        },
+        "documents": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/106/documents",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/106/relationships/documents"
+          }
+        },
+        "keywords": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/106/keywords",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/106/relationships/keywords"
+          }
+        },
+        "maps": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/106/maps",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/106/relationships/maps"
+          }
+        },
+        "notes": {
+          "links": {
+            "related": "https://data.participatory-archives.ch/api/v1/collections/106/notes",
+            "self": "https://data.participatory-archives.ch/api/v1/collections/106/relationships/notes"
+          }
+        }
+      },
+      "links": {
+        "self": "https://data.participatory-archives.ch/api/v1/collections/106"
       }
     },
     {

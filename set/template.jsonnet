@@ -1,5 +1,5 @@
 local iiif_base_uri = 'https://iiif.participatory-archives.ch/';
-local la_base_uri = 'https://linkedart.participatory-archives.ch/';
+local la_base_uri = 'https://data.participatory-archives.ch/';
 local aat = 'http://vocab.getty.edu/aat/';
 local salsah_uri = "https://archiv.sgv-sstp.ch/";
 

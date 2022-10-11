@@ -119,7 +119,7 @@ To contribute, fork the repository and create a pull request.
 # Change log
 
 # License and authorship information
-The code has been written by Tanya Gray @tgra at the University of Oxford. The work is further to a collaboration with Julien Remy at the University of Basel (https://www.unibas.ch/), Tanya Gray and Dr Kevin Page at the University of Oxford as part of the Linked Art II project.
+The code has been written by Tanya Gray @tgra at the University of Oxford. The work is further to a collaboration with [Julien A. Raemy](https://github.com/julsraemy) at the University of Basel's Digital Humanities Lab, Tanya Gray and Dr Kevin Page at the University of Oxford as part of the Linked Art II project.
 
 
 # Further documentation
