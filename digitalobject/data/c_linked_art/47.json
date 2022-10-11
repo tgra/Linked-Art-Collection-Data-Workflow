@@ -81,7 +81,7 @@
   ],
   "member_of": [
     {
-      "id": "https://linkedart.participatory-archives.ch/set/4",
+      "id": "https://data.participatory-archives.ch/set/4",
       "type": "Set",
       "_label": "SGV_10",
       "classified_as": [
@@ -154,7 +154,7 @@
           "format": "application/ld+json",
           "access_point": [
             {
-              "id": "https://iiif.participatory-archives.ch/47/manifest.json",
+              "id": "https://iiif.participatory-archives.ch/SGV_10P_00047/manifest.json",
               "type": "DigitalObject"
             }
           ],
@@ -223,12 +223,12 @@
           },
           "took_place_at": [
             {
-              "id": "https://linkedart.participatory-archives.ch/Place/5",
+              "id": "https://data.participatory-archives.ch/Place/5",
               "type": "Place",
               "_label": "Basel",
               "identified_by": [
                 {
-                  "id": "https://linkedart.participatory-archives.ch/Identifier/5",
+                  "id": "https://data.participatory-archives.ch/Identifier/5",
                   "type": "Identifier",
                   "_label": "local identifier"
                 },

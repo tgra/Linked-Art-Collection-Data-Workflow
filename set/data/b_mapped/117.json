@@ -1,0 +1,27 @@
+{
+  "_label": "Cats",
+  "id": "https://data.participatory-archives.ch/set/117",
+  "identified_by": {
+    "name": {
+      "_label": "Cats",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "117"
+    }
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Cats",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/117.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type_id": 300025976
+}

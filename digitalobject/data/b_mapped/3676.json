@@ -1,0 +1,81 @@
+{
+  "_label": "Blick von Piz Landguart [sic!] Sommer 1955. Photo v. F Lenchen Krahe & deren Freundinnen",
+  "access_point": {
+    "_label": "Image in full resolution",
+    "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_03676.jp2/full/max/0/default.jpg"
+  },
+  "created_by": {
+    "_label": "Digitisation of Photograph",
+    "used": {
+      "_label": "Negative of Blick von Piz Landguart [sic!] Sommer 1955. Photo v. F Lenchen Krahe & deren Freundinnen",
+      "produced_by_event": {
+        "begin": "1955-01-01",
+        "display_title": "GREGORIAN:CE:1955",
+        "end": "",
+        "location": [
+          {
+            "_label": "Maloja District",
+            "geonames_id": "https://geonames.org/7284997",
+            "id": "158"
+          }
+        ]
+      },
+      "shows": {
+        "_label": "Visual Content of Negative of Blick von Piz Landguart [sic!] Sommer 1955. Photo v. F Lenchen Krahe & deren Freundinnen"
+      }
+    }
+  },
+  "current_owner": {
+    "_label": "SGV Fotoarchiv",
+    "id": "https://data.participatory-archives.ch/group/42",
+    "type_id": 300343368,
+    "type_label": "Photo Archives"
+  },
+  "digitally_shows": {
+    "_label": "Visual Content of Digital Positive of Blick von Piz Landguart [sic!] Sommer 1955. Photo v. F Lenchen Krahe & deren Freundinnen"
+  },
+  "id": "3676",
+  "identified_by": {
+    "name": {
+      "_label": "Blick von Piz Landguart [sic!] Sommer 1955. Photo v. F Lenchen Krahe & deren Freundinnen",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "3676"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_10P_03676"
+    }
+  },
+  "iiif_image_api": "https://sipi.participatory-archives.ch/SGV_10/SGV_10P_03676.jp2/info.json",
+  "member_of": [
+    {
+      "_label": "SGV_10",
+      "classified_as": [
+        {
+          "type_id": 300025976
+        }
+      ],
+      "id": "https://data.participatory-archives.ch/set/4",
+      "type": "Set"
+    }
+  ],
+  "subject_of": [
+    {
+      "_label": "SGV Homepage for PIA ID 3676 - Blick von Piz Landguart [sic!] Sommer 1955. Photo v. F Lenchen Krahe & deren Freundinnen",
+      "access_point_id": "https://archiv.sgv-sstp.ch/resource/477184",
+      "type_id": 300264578
+    },
+    {
+      "_label": "IIIF Manifest for PIA ID 3676 - Blick von Piz Landguart [sic!] Sommer 1955. Photo v. F Lenchen Krahe & deren Freundinnen",
+      "access_point_id": "https://iiif.participatory-archives.ch/SGV_10P_03676/manifest.json",
+      "type": "iiif"
+    }
+  ],
+  "type_id": 300215302
+}

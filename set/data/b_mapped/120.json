@@ -1,0 +1,27 @@
+{
+  "_label": "Brunner but make it 2017",
+  "id": "https://data.participatory-archives.ch/set/120",
+  "identified_by": {
+    "name": {
+      "_label": "Brunner but make it 2017",
+      "language": {
+        "type_id": 300388344
+      },
+      "type_id": 300404670
+    },
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "120"
+    }
+  },
+  "subject_of": [
+    {
+      "iiif": {
+        "_label": "IIIF Collection for  Brunner but make it 2017",
+        "access_point_id": "https://iiif.participatory-archives.ch/collections/120.json",
+        "type": "iiif"
+      }
+    }
+  ],
+  "type_id": 300025976
+}
