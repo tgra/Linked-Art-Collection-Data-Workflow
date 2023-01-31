@@ -5,7 +5,7 @@ def save_file(data, dir, id):
     if data != "":
         mapped_data =  json.dumps(json.loads(data),indent=2)   
         # write intermediate json data format to file
-        f = open(dir + "/"+ str(id) + ".json" , "w")
+        f = open(dir + "/"+ str(id) + ".json" , "w+")
         f.write(mapped_data)
         f.close() 
         print("\n saving mapped collection data file: " + dir + "/"+ str(id) + ".json", end='', flush=True)
