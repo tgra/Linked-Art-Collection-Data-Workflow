@@ -42,7 +42,7 @@ types:
 uris:
   sipi_uri      : https://sipi.participatory-archives.ch/
   iiif_base_uri : https://iiif.participatory-archives.ch/
-  la_base_uri     : https://linkedart.participatory-archives.ch/
+  la_base_uri     : https://data.participatory-archives.ch/
   aat             : http://vocab.getty.edu/aat/
-  salsah_uri      : https://archiv.sgv-sstp.ch/
+  sgv_archiv_uri      : https://archiv.sgv-sstp.ch/
 ...

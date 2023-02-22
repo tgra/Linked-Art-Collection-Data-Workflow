@@ -56,7 +56,7 @@
   ],
   "member_of": [
     {
-      "id": "https://linkedart.participatory-archives.ch/set/4",
+      "id": "https://data.participatory-archives.ch/set/4",
       "type": "Set",
       "_label": "SGV_10",
       "classified_as": [
@@ -129,7 +129,7 @@
           "format": "application/ld+json",
           "access_point": [
             {
-              "id": "https://iiif.participatory-archives.ch/289/manifest.json",
+              "id": "https://iiif.participatory-archives.ch/SGV_10P_00289/manifest.json",
               "type": "DigitalObject"
             }
           ],

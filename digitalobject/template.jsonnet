@@ -1,6 +1,6 @@
 local sipi_uri = 'https://sipi.participatory-archives.ch/';
 local iiif_base_uri = 'https://iiif.participatory-archives.ch/';
-local la_base_uri = 'https://linkedart.participatory-archives.ch/';
+local la_base_uri = 'https://data.participatory-archives.ch/';
 local aat = 'http://vocab.getty.edu/aat/';
 local salsah_uri = "https://archiv.sgv-sstp.ch/";
 // title and id
@@ -46,7 +46,7 @@ local base_path = std.extVar('base_path');
 local uri_image_fullres = sipi_uri + base_path + '/' + id_sgv + '.jp2/full/max/0/default.jpg';
 
 local iiif_label = 'IIIF Manifest for PIA ID ' + object_id + (if object_title != '' then ' - ' + object_title else '');
-local iiif_uri = iiif_base_uri + object_id + '/manifest.json';
+local iiif_uri = iiif_base_uri + id_sgv + '/manifest.json';
 local iiif_image_api = sipi_uri + base_path + '/' + id_sgv + '.jp2/info.json';
 
 

@@ -1,0 +1,74 @@
+{
+  "_label": "",
+  "access_point": {
+    "_label": "Image in full resolution",
+    "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10D_00230.jp2/full/max/0/default.jpg"
+  },
+  "created_by": {
+    "_label": "Digitisation of Photograph",
+    "used": {
+      "_label": "Negative of 10261",
+      "produced_by_event": {
+        "begin": "1932-01-01",
+        "display_title": "GREGORIAN:CE:1932",
+        "end": "",
+        "location": [
+          {
+            "_label": "Zermatt",
+            "geonames_id": "https://geonames.org/2657928",
+            "id": "9"
+          }
+        ]
+      },
+      "shows": {
+        "_label": "Visual Content of Negative of 10261"
+      }
+    }
+  },
+  "current_owner": {
+    "_label": "SGV Fotoarchiv",
+    "id": "https://data.participatory-archives.ch/group/42",
+    "type_id": 300343368,
+    "type_label": "Photo Archives"
+  },
+  "digitally_shows": {
+    "_label": "Visual Content of Digital Positive of 10261"
+  },
+  "id": "10261",
+  "identified_by": {
+    "pia-id": {
+      "type_id": 300404621,
+      "value": "10261"
+    },
+    "sgv-signature": {
+      "type_id": 300312355,
+      "value": "SGV_10D_00230"
+    }
+  },
+  "iiif_image_api": "https://sipi.participatory-archives.ch/SGV_10/SGV_10D_00230.jp2/info.json",
+  "member_of": [
+    {
+      "_label": "SGV_10",
+      "classified_as": [
+        {
+          "type_id": 300025976
+        }
+      ],
+      "id": "https://data.participatory-archives.ch/set/4",
+      "type": "Set"
+    }
+  ],
+  "subject_of": [
+    {
+      "_label": "SGV Homepage for PIA ID 10261",
+      "access_point_id": "https://archiv.sgv-sstp.ch/resource/483769",
+      "type_id": 300264578
+    },
+    {
+      "_label": "IIIF Manifest for PIA ID 10261",
+      "access_point_id": "https://iiif.participatory-archives.ch/SGV_10D_00230/manifest.json",
+      "type": "iiif"
+    }
+  ],
+  "type_id": 300215302
+}

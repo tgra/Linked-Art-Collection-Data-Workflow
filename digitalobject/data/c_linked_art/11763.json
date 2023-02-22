@@ -1,0 +1,172 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://vocab.getty.edu/aat/300215302",
+  "type": "DigitalObject",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "Digital Image",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404621",
+          "type": "Type",
+          "_label": "PIA ID",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "11763"
+    },
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "SGV Signature",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "content": "SGV_10D_01732"
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://data.participatory-archives.ch/set/4",
+      "type": "Set",
+      "_label": "SGV_10",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300025976",
+          "type": "Type",
+          "_label": "Collection",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "SGV Homepage for PIA ID 11763",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "SGV Homepage for PIA ID 11763",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300435443",
+                  "type": "Type",
+                  "_label": "Type of Work"
+                }
+              ]
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "SGV Homepage for PIA ID 11763"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://archiv.sgv-sstp.ch/resource/485271",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "IIIF Manifest for PIA ID 11763",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF Manifest for PIA ID 11763",
+          "identified_by": [
+            {
+              "type": "Name",
+              "_label": "IIIF Manifest for PIA ID 11763"
+            }
+          ],
+          "format": "application/ld+json",
+          "access_point": [
+            {
+              "id": "https://iiif.participatory-archives.ch/SGV_10D_01732/manifest.json",
+              "type": "DigitalObject"
+            }
+          ],
+          "conforms_to": [
+            {
+              "id": "http://iiif.io/api/presentation/3/context.json",
+              "type": "InformationObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10D_01732.jp2/full/max/0/default.jpg",
+      "type": "DigitalObject",
+      "_label": "Image in full resolution"
+    }
+  ],
+  "digitally_available_via": [
+    {
+      "type": "DigitalService",
+      "_label": "IIIF Image API",
+      "format": "application/ld+json",
+      "access_point": [
+        {
+          "id": "https://sipi.participatory-archives.ch/SGV_10/SGV_10D_01732.jp2/info.json",
+          "type": "DigitalObject"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/image/3/context.json",
+          "type": "InformationObject"
+        }
+      ]
+    }
+  ]
+}
